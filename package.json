@@ -1,0 +1,30 @@
+{
+  "name": "businessy.ui",
+  "version": "1.0.0",
+  "description": "ui for businessy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukemai/businessy.ui.git"
+  },
+  "author": "duc.mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukemai/businessy.ui/issues"
+  },
+  "homepage": "https://github.com/dukemai/businessy.ui#readme",
+  "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "stylus": "^0.54.5"
+  }
+}

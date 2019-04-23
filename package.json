@@ -21,6 +21,7 @@
   "homepage": "https://github.com/dukemai/businessy.ui#readme",
   "dependencies": {
     "@zeit/next-stylus": "^1.0.1",
+    "classnames": "^2.2.6",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

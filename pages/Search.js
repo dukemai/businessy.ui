@@ -7,8 +7,6 @@ import ResultText from '../components/Search/ResultText';
 import ResultItem from '../components/Search/ResultItem';
 import EnterEmail from '../components/Search/EnterEmail';
 
-import '../components/Search/styles.styl';
-
 const results = [...new Array(10).keys()];
 
 const onSearchItemClick = e => {
@@ -20,15 +18,11 @@ const defaultProps = {};
 const Search = ({}) => (
   <Layout>
     <ResultText />
-    <section className="grid-x grid-padding-x">
-      <div className="cell  ">
-        <ResultItem onClick={onSearchItemClick} />
-        <EnterEmail />
-        {results.map(result => (
-          <ResultItem onClick={onSearchItemClick} key={result} />
-        ))}
-      </div>
-    </section>
+    <ResultItem onClick={onSearchItemClick} />
+    <EnterEmail />
+    {results.map(result => (
+      <ResultItem onClick={onSearchItemClick} key={result} />
+    ))}
   </Layout>
 );
 Search.propTypes = propTypes;

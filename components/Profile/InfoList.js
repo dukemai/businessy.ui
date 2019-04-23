@@ -7,22 +7,22 @@ const propTypes = {};
 const defaultProps = {};
 const list = [
   {
-    label: 'Description',
-  },
-  {
-    label: 'Summary of customers and suppliers',
+    label: 'Business',
   },
   {
     label: 'Website',
   },
   {
-    label: 'SaaS and industry',
-  },
-  {
     label: 'Location',
   },
   {
-    label: 'Revenue',
+    label: 'Industries',
+  },
+  {
+    label: 'Description',
+  },
+  {
+    label: 'Linkedin',
   },
   {
     label: 'Linkedin',

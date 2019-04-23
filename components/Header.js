@@ -4,16 +4,16 @@ const linkStyle = {
   marginRight: 15,
 };
 
-const Header = () => (
+const Header = ({ onSignUpClicked, onLogoClicked }) => (
   <section className="title-bar">
     <div className="title-bar-left">
       <button className="menu-icon" type="button" />
-      <span className="title-bar-title">Businessy</span>
+      <span onClick={onLogoClicked} className="title-bar-title">Businessy</span>
     </div>
     <div className="top-bar-right">
       <ul className="menu">
         <li>
-          <button className="button small hollow" type="button">
+          <button onClick={onSignUpClicked} className="button small hollow" type="button">
             Sign up
           </button>
         </li>

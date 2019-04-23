@@ -5,7 +5,7 @@ const propTypes = {
 const defaultProps = {
 };
 const Title = ({ }) => (
-    <div>Company Title</div>
+    <p className="text-center h4">Company Title</p>
 );
 Title.propTypes = propTypes;
 Title.defaultProps = defaultProps;

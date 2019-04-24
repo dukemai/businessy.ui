@@ -22,7 +22,7 @@ const Layout = props => (
     <section>
       <Header onSignUpClicked={onSignUpClicked} onLogoClicked={onLogoClicked} />
       <section className="grid-x grid-padding-x">
-        <section className="cell">{props.children}</section>
+        <section className="cell container">{props.children}</section>
       </section>
     </section>
   </>

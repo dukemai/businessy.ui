@@ -4,7 +4,7 @@ const propTypes = {};
 const defaultProps = {};
 const Partner = ({ onClick }) => (
   <div onClick={onClick} className="media-object grid-x">
-    <div className="media-object-section cell small-4">
+    <div className="media-object-section cell small-4 medium-3">
       <div className="thumbnail">
         <img className="image--partner-item" src="https://placeimg.com/200/200/people" />
       </div>

@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
 const Next = ({ onNextClicked }) => (
-  <button className="button" onClick={onNextClicked}>Next</button>
+  <div className="text-center">
+    <button className="button" onClick={onNextClicked}>
+      Next
+    </button>
+  </div>
 );
 Next.propTypes = propTypes;
 Next.defaultProps = defaultProps;

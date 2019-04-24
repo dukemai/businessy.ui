@@ -31,10 +31,16 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
       setIsOpen(false);
     }
   };
+  const isDevice = 'ontouchstart' in document.documentElement;
   useEffect(() => {
-    document.addEventListener('click', documentClicked);
+    if (isDevice) {
+      document.addEventListener('touchstart', documentClicked);
+    } else {
+      document.addEventListener('click', documentClicked);
+    }
     return () => {
       document.removeEventListener('click', documentClicked);
+      document.removeEventListener('touchstart', documentClicked);
     };
   });
   const state = useContext(AppContext);

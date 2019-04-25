@@ -9,11 +9,26 @@ const onEnter = e => {
     Router.push('/search');
   }
 };
+const onGetStarted = e => {
+  Router.push('/search');
+};
 const SearchInput = ({}) => (
-  <div className="medium-6 cell">
-    <label>
-      <input type="text" onKeyPress={onEnter} placeholder="Search softwares" />
-    </label>
+  <div className="grid-x align-center grid--search">
+    <div className="medium-6 cell">
+      <div className=" input-group">
+        <input
+          type="text"
+          onKeyPress={onEnter}
+          placeholder="Search softwares"
+          className="input-group-field"
+        />
+        <div className="input-group-button">
+          <button onClick={onGetStarted} className="button">
+            Get started
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 );
 SearchInput.propTypes = propTypes;

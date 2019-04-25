@@ -7,11 +7,7 @@ const linkStyle = {
   marginRight: 15,
 };
 
-const menuItems = [
-  { title: 'Home', link: '/', everyone: true },
-  { title: 'Sign in', link: '/signin', anonymous: true },
-  { title: 'Profile', link: '/profile', protected: true },
-];
+const menuItems = [];
 
 const isMenuVisible = (menuItem, isAuthenticated) =>
   menuItem.everyone ||
@@ -31,7 +27,9 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
       setIsOpen(false);
     }
   };
-  const isDevice = 'ontouchstart' in document.documentElement;
+  const isDevice =
+    typeof document !== 'undefined' &&
+    'ontouchstart' in document.documentElement;
   useEffect(() => {
     if (isDevice) {
       document.addEventListener('touchstart', documentClicked);
@@ -48,36 +46,53 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
   const onSignOutClicked = () => state.setUser(null);
   const renderRightMenu = () => (
     <div className="top-bar-right">
-      <ul className="menu">
-        <li>
-          {!isAuthenticated && (
-            <button
-              onClick={onSignUpClicked}
-              className="button small hollow"
-              type="button"
-            >
-              Sign up
-            </button>
-          )}
-          {isAuthenticated && (
-            <button
-              onClick={onSignOutClicked}
-              className="button small hollow"
-              type="button"
-            >
-              Sign out
-            </button>
-          )}
-        </li>
+      <ul className="menu simple">
+        {!isAuthenticated && (
+          <>
+            <li>
+              <Link href="/signin">
+                <a>Sign in</a>
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href="/signup">
+                <a>Sign up</a>
+              </Link>
+            </li>
+          </>
+        )}
+        {isAuthenticated && (
+          <>
+            <li>
+              <Link href="/profile">
+                <a>Profile</a>
+              </Link>
+            </li>
+            <li>
+              <button
+                onClick={onSignOutClicked}
+                className="button small"
+                type="button"
+              >
+                Sign out
+              </button>
+            </li>
+          </>
+        )}
       </ul>
     </div>
   );
   return (
     <>
-      <div className="top-bar show-for-medium">
+      <header className="top-bar show-for-medium top-bar--main">
         <div className="top-bar-left">
           <ul className="dropdown menu" data-dropdown-menu>
-            <li className="menu-text">Businessy</li>
+            <li className="menu-text">
+              <Link href="/">
+                <a className="logo h3">Businessy</a>
+              </Link>
+            </li>
             {menuItems.map(
               menuItem =>
                 isMenuVisible(menuItem, isAuthenticated) && (
@@ -91,7 +106,7 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
           </ul>
         </div>
         {renderRightMenu()}
-      </div>
+      </header>
       <section className="title-bar show-for-small-only">
         <div className="title-bar-left">
           <button onClick={toggleMenu} className="menu-icon" type="button" />

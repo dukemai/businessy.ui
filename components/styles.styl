@@ -1,5 +1,29 @@
 @import '*/styles.styl'
 
+commonMargin() {
+    margin: 4rem 0 2.5rem
+}
+
 .container
     max-width: 75rem
     margin: 0 auto
+
+.top-bar
+    &--main
+        height: 3.75rem;
+        background-color: rgba(23, 121, 186, 0.9);
+        ul
+            background-color: transparent;
+        
+        li, a
+            color: #e6e6e6
+        
+    .logo
+        color: #FFF
+
+.callout
+    border: none
+    &--grey
+        background-color: #f6f7fb;
+    &--home-search
+        padding-bottom: 2rem

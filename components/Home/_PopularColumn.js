@@ -6,7 +6,7 @@ const PopularColumn = ({ items = [], title }) => (
   <div className="cell medium-4 align-center">
     <p className="h5 text-center">{title}</p>
     {items.map(item => (
-      <div className="text-center"><a href="#">{item}</a></div>
+      <div key={item} className="text-center"><a href="#">{item}</a></div>
     ))}
   </div>
 );

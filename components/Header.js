@@ -123,7 +123,7 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
           'is-open': isOpen,
         })}
       >
-        <ul className="vertical menu mobile-ofc">
+        <ul className="vertical menu mobile-ofc show-for-small-only">
           <li className="menu-text">Businessy</li>
           {menuItems.map(
             menuItem =>

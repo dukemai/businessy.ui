@@ -119,11 +119,11 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
       </section>
       <div
         ref={menuRef}
-        className={classnames('off-canvas position-left', {
+        className={classnames('off-canvas position-left show-for-small-only', {
           'is-open': isOpen,
         })}
       >
-        <ul className="vertical menu mobile-ofc show-for-small-only">
+        <ul className="vertical menu mobile-ofc">
           <li className="menu-text">Businessy</li>
           {menuItems.map(
             menuItem =>

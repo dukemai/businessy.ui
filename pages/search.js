@@ -18,11 +18,13 @@ const defaultProps = {};
 const Search = ({}) => (
   <Layout>
     <ResultText />
-    <ResultItem onClick={onSearchItemClick} />
-    <EnterEmail />
-    {results.map(result => (
-      <ResultItem onClick={onSearchItemClick} key={result} />
-    ))}
+    <section className="grid-x grid-padding-x">
+      <ResultItem onClick={onSearchItemClick} />
+      <EnterEmail />
+      {results.map(result => (
+        <ResultItem onClick={onSearchItemClick} key={result} />
+      ))}
+    </section>
   </Layout>
 );
 Search.propTypes = propTypes;

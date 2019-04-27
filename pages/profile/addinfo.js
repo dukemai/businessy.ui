@@ -14,8 +14,12 @@ const onPartnerClicked = () => {};
 const AddInfo = ({}) => (
   <Layout>
     <IntroText />
-    <PasteUrls />
-    <Upload />
+    <section className="grid-x align-center">
+      <div className="cell medium-6">
+        <PasteUrls />
+        <Upload />
+      </div>
+    </section>
   </Layout>
 );
 AddInfo.propTypes = propTypes;

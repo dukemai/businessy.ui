@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
 const ResultItem = ({ onClick }) => (
-  <div onClick={onClick} className="media-object grid-x">
-    <div className="media-object-section cell small-4">
+  <div onClick={onClick} className="media-object grid-x cell">
+    <div className="media-object-section cell small-4 align-right grid-x">
       <div className="thumbnail">
-        <img className="image--result-item" src="https://placeimg.com/200/200/people" />
+        <img className="image--result-item" src="https://placeimg.com/200/200/business" />
       </div>
     </div>
     <div className="media-object-section">

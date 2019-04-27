@@ -11,14 +11,16 @@ const EmailInput = ({ onEnter }) => {
     }
   };
   return (
-    <div className="medium-6 cell">
-      <label>
-        <input
-          type="text"
-          onKeyPress={onKeyPress}
-          placeholder="Work email address"
-        />
-      </label>
+    <div className="grid-x align-center">
+      <div className="medium-6 cell align-center">
+        <label>
+          <input
+            type="text"
+            onKeyPress={onKeyPress}
+            placeholder="Work email address"
+          />
+        </label>
+      </div>
     </div>
   );
 };

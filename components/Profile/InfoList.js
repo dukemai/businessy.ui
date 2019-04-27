@@ -29,10 +29,12 @@ const list = [
   },
 ];
 const InfoList = ({}) => (
-  <section>
-    {list.map((info, key) => (
-      <Info {...info} key={key} />
-    ))}
+  <section className="grid-x align-center">
+    <div className="cell medium-8 grid-x grid-margin-x cell--bordered callout">
+      {list.map((info, key) => (
+        <Info {...info} key={key} />
+      ))}
+    </div>
   </section>
 );
 InfoList.propTypes = propTypes;

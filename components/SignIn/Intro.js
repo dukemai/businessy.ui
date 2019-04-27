@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
 const Intro = ({}) => (
-  <p className="text-center text--sign-in">
+  <p className="text-center text--sign-in h5">
     Login to discover the right software for your business.
   </p>
 );

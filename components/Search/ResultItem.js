@@ -6,13 +6,17 @@ const ResultItem = ({ onClick }) => (
   <div onClick={onClick} className="media-object grid-x cell">
     <div className="media-object-section cell small-4 align-right grid-x">
       <div className="thumbnail">
-        <img className="image--result-item" src="https://placeimg.com/200/200/business" />
+        <img
+          className="image--result-item"
+          src="https://placeimg.com/200/200/business"
+        />
       </div>
     </div>
     <div className="media-object-section">
-      <h5>Company A</h5>
+      <h5>Nordic Tech List</h5>
       <p>
-        I'm going to improvise. Listen,
+        Comprehensive data and information service tracking Nordic tech
+        investments in Sweden, Denmark, Norway, Finland and Iceland.
       </p>
     </div>
   </div>

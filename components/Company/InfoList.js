@@ -8,24 +8,30 @@ const defaultProps = {};
 const list = [
   {
     label: 'Description',
+    content:
+      'Comprehensive data and information service tracking Nordic tech investments in Sweden, Denmark, Norway, Finland and Iceland.',
   },
   {
     label: 'Summary of customers and suppliers',
   },
   {
     label: 'Website',
+    content: 'https://www.nordictechlist.com/',
   },
   {
     label: 'SaaS and industry',
+    content: 'Information Technology',
   },
   {
     label: 'Location',
+    content: 'Sweden'
   },
   {
     label: 'Revenue',
   },
   {
     label: 'Linkedin',
+    content: 'company/nordic-tech-list',
   },
 ];
 const InfoList = ({}) => (

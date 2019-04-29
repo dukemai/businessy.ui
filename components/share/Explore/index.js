@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 import EmailInput from './_EmailInput';
 import GetStarted from './_GetStarted';
@@ -7,8 +8,10 @@ import GetStarted from './_GetStarted';
 const propTypes = {};
 const defaultProps = {};
 const tags = ['CRM', 'HR', 'Email'];
-const Explore = ({}) => (
-  <section className="callout callout--explore callout--grey">
+const Explore = ({ className }) => (
+  <section
+    className={classnames('callout callout--explore callout--grey', className)}
+  >
     <p className="text--explore text-center h5">
       Discover the software that other businesses like yours are using
     </p>

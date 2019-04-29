@@ -5,7 +5,7 @@ import Router from 'next/router';
 import Layout from '../components/Layout';
 import ResultText from '../components/Search/ResultText';
 import ResultItem from '../components/Search/ResultItem';
-import EnterEmail from '../components/Search/EnterEmail';
+import Explore from '../components/share/Explore';
 
 const results = [...new Array(10).keys()];
 
@@ -17,10 +17,11 @@ const propTypes = {};
 const defaultProps = {};
 const Search = ({}) => (
   <Layout>
-    <ResultText />
     <section className="grid-x grid-padding-x">
+      <ResultText />
+
       <ResultItem onClick={onSearchItemClick} />
-      <EnterEmail />
+      <Explore className="cell" />
       {results.map(result => (
         <ResultItem onClick={onSearchItemClick} key={result} />
       ))}

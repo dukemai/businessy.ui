@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef, useContext } from 'react';
 import Link from 'next/link';
 import classnames from 'classnames';
 import AppContext from '../AppContext';
+import SearchHeader from './SearchHeader';
 
 const linkStyle = {
   marginRight: 15,
@@ -14,7 +15,7 @@ const isMenuVisible = (menuItem, isAuthenticated) =>
   (isAuthenticated && menuItem.protected) ||
   (!isAuthenticated && menuItem.anonymous);
 
-const Header = ({ onSignUpClicked, onLogoClicked }) => {
+const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef();
   const toggleMenu = e => {
@@ -87,7 +88,7 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
     <>
       <header className="top-bar show-for-medium top-bar--main">
         <div className="top-bar-left">
-          <ul className="dropdown menu" data-dropdown-menu>
+          <ul className="menu">
             <li className="menu-text">
               <Link href="/">
                 <a className="logo h3">Businessy</a>
@@ -102,6 +103,11 @@ const Header = ({ onSignUpClicked, onLogoClicked }) => {
                     </Link>
                   </li>
                 )
+            )}
+            {!hideSearchBar && (
+              <li className="grid-x align-middle top-bar__search">
+                <SearchHeader />
+              </li>
             )}
           </ul>
         </div>

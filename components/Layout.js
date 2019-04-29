@@ -20,7 +20,11 @@ const Layout = props => (
       <meta name="description" content="Businessy application" />
     </Head>
     <section>
-      <Header onSignUpClicked={onSignUpClicked} onLogoClicked={onLogoClicked} />
+      <Header
+        onSignUpClicked={onSignUpClicked}
+        onLogoClicked={onLogoClicked}
+        hideSearchBar={props.hideSearchBar}
+      />
       <section className="align-center">{props.children}</section>
     </section>
   </>

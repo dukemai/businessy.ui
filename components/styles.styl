@@ -1,8 +1,7 @@
-@import '*/styles.styl'
-
-commonMargin() {
+commonMargin()
     margin: 4rem 0 2.5rem
-}
+
+@import '*/styles.styl'
 
 .container
     max-width: 75rem
@@ -20,6 +19,12 @@ commonMargin() {
         
     .logo
         color: #FFF
+    &__search
+        width: 30rem
+        .input-group
+            margin-bottom: 0
+        input
+            max-width: none
 
 .callout
     border-style: none

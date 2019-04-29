@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
 const ResultText = ({}) => (
-  <p className="text-center text--search-result h4">CRM search results</p>
+  <p className="text-center text--search-result h4 callout--grey callout cell">
+    Search results for accounting softwares
+  </p>
 );
 ResultText.propTypes = propTypes;
 ResultText.defaultProps = defaultProps;

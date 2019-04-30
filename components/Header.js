@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback, useRef, useContext } from 'react';
 import Link from 'next/link';
+import Router from 'next/router';
+
 import classnames from 'classnames';
 import AppContext from '../AppContext';
 import SearchHeader from './SearchHeader';
@@ -45,6 +47,8 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
   const state = useContext(AppContext);
   const isAuthenticated = Boolean(state.user);
   const onSignOutClicked = () => state.setUser(null);
+  const onSearchClicked = () => Router.push('/search');
+
   const renderRightMenu = () => (
     <div className="top-bar-right">
       <ul className="menu simple">
@@ -106,7 +110,7 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
             )}
             {!hideSearchBar && (
               <li className="grid-x align-middle top-bar__search">
-                <SearchHeader />
+                <SearchHeader onSearchClicked={onSearchClicked} />
               </li>
             )}
           </ul>

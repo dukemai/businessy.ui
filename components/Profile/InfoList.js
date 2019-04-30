@@ -24,9 +24,6 @@ const list = [
   {
     label: 'Linkedin',
   },
-  {
-    label: 'Linkedin',
-  },
 ];
 const InfoList = ({}) => (
   <section className="grid-x align-center">

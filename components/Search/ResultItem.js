@@ -6,7 +6,7 @@ import ConnectedCompany from './_ConnectedCompany';
 
 const propTypes = {};
 const defaultProps = {};
-const companies = ['']
+const companies = [''];
 const ResultItem = ({ onClick }) => (
   <div className="cell callout">
     <h5>
@@ -22,11 +22,13 @@ const ResultItem = ({ onClick }) => (
         </p>
       </div>
       <div className="media-object-section cell small-4 medium-1 grid-x align-right">
-        <div className="thumbnail">
-          <img
-            className="image--result-item"
-            src="https://images.siftery.com/image/upload/w_34,h_34,dpr_2,c_limit/v1444065129/v1/p/companies/accountingsuite.png"
-          />
+        <div className="cell">
+          <div className="thumbnail">
+            <img
+              className="image--result-item"
+              src="https://images.siftery.com/image/upload/w_34,h_34,dpr_2,c_limit/v1444065129/v1/p/companies/accountingsuite.png"
+            />
+          </div>
         </div>
       </div>
     </div>

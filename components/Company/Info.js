@@ -5,7 +5,7 @@ const defaultProps = {};
 const Info = ({ label, content }) => (
   <>
     <div className="cell medium-4">
-      <p className="h6 text-right text--profile-label">{label}</p>
+      <p className="h6 text--profile-label">{label}</p>
     </div>
     <div className="cell medium-8">
       <p>{content}</p>

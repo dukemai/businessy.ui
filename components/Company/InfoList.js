@@ -12,9 +12,6 @@ const list = [
       'Comprehensive data and information service tracking Nordic tech investments in Sweden, Denmark, Norway, Finland and Iceland.',
   },
   {
-    label: 'Summary of customers and suppliers',
-  },
-  {
     label: 'Website',
     content: 'https://www.nordictechlist.com/',
   },
@@ -24,7 +21,7 @@ const list = [
   },
   {
     label: 'Location',
-    content: 'Sweden'
+    content: 'Sweden',
   },
   {
     label: 'Revenue',
@@ -35,13 +32,11 @@ const list = [
   },
 ];
 const InfoList = ({}) => (
-  <section className="grid-x align-center">
-    <div className="cell medium-8 grid-x grid-margin-x cell--bordered callout">
-      {list.map((info, key) => (
-        <Info {...info} key={key} />
-      ))}
-    </div>
-  </section>
+  <div className="cell medium-8 grid-x grid-margin-x grid--info-list">
+    {list.map((info, key) => (
+      <Info {...info} key={key} />
+    ))}
+  </div>
 );
 InfoList.propTypes = propTypes;
 InfoList.defaultProps = defaultProps;

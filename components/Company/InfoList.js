@@ -34,7 +34,7 @@ const list = [
 const InfoList = ({}) => (
   <div className="cell medium-8 grid-x grid-margin-x grid--info-list">
     {list.map((info, key) => (
-      <Info {...info} key={key} />
+      <Info {...info} key={key} isLongText={info.label === 'Description'} />
     ))}
   </div>
 );

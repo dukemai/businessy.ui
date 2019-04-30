@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
+
 const propTypes = {};
 const defaultProps = {};
-const Info = ({ label, content }) => (
+const Info = ({ label, content, isLongText }) => (
   <>
-    <div className="cell medium-4">
+    <div className={classnames('cell', { 'medium-4': !isLongText })}>
       <p className="h6 text--profile-label">{label}</p>
     </div>
-    <div className="cell medium-8">
+    <div className={classnames('cell', { 'medium-8': !isLongText })}>
       <p>{content}</p>
     </div>
   </>

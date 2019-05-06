@@ -8,7 +8,7 @@ import GetStarted from './_GetStarted';
 const propTypes = {};
 const defaultProps = {};
 const tags = ['CRM', 'HR', 'Email'];
-const Explore = ({ className }) => (
+const Explore = ({ className, onStartClicked, isAuthenticated }) => (
   <section
     className={classnames('callout callout--explore callout--grey', className)}
   >
@@ -16,18 +16,22 @@ const Explore = ({ className }) => (
       Discover the software that other businesses like yours are using
     </p>
     <p className="text-center">
-      Get started - it's free. Enter your work email address
+      {isAuthenticated
+        ? 'Text for logged in users'
+        : "Get started - it's free. Enter your work email address"}
     </p>
-    <div className="grid-container">
-      <div className="grid-x align-center grid-margin-x">
-        <div className="medium-6 cell">
-          <div className="input-group">
-            <EmailInput />
-            <GetStarted />
+    {!isAuthenticated && (
+      <div className="grid-container">
+        <div className="grid-x align-center grid-margin-x">
+          <div className="medium-6 cell">
+            <div className="input-group">
+              <EmailInput />
+              <GetStarted onStartClicked={onStartClicked} />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    )}
   </section>
 );
 Explore.propTypes = propTypes;

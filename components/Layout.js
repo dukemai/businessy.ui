@@ -4,7 +4,7 @@ import Router from 'next/router';
 import Header from './Header';
 import './styles.styl';
 
-const onSignUpClicked = () => Router.push('/signup');
+const onSignUpClicked = () => Router.push('/signin');
 const onLogoClicked = () => Router.push('/');
 const Layout = props => (
   <>

@@ -1,9 +1,9 @@
 import Router from 'next/router';
 import Layout from '../../components/Layout';
 
-import Description from '../../components/Profile/Description';
-import InfoList from '../../components/Profile/InfoList';
-import Next from '../../components/Profile/Next';
+import Description from '../../components/MyCompany/Description';
+import InfoList from '../../components/MyCompany/InfoList';
+import Next from '../../components/MyCompany/Next';
 
 const propTypes = {};
 const defaultProps = {};

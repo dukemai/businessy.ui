@@ -1,15 +1,15 @@
 import Router from 'next/router';
 
 import Layout from '../../components/Layout';
-import EnterText from '../../components/SignUp/EnterText';
-import EmailInput from '../../components/SignUp/EmailInput';
-import GetStarted from '../../components/SignUp/GetStarted';
+import EnterText from '../../components/SignIn/EnterText';
+import EmailInput from '../../components/SignIn/EmailInput';
+import GetStarted from '../../components/SignIn/GetStarted';
 
 const propTypes = {};
 const defaultProps = {};
 
 const redirectToConfirm = () => {
-  Router.push('/signup/confirm');
+  Router.push('/signin/confirm');
 };
 
 const SignUp = ({}) => (

@@ -70,8 +70,8 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
         {isAuthenticated && (
           <>
             <li>
-              <Link href="/profile">
-                <a>Profile</a>
+              <Link href="/mycompany">
+                <a>My company</a>
               </Link>
             </li>
             <li>

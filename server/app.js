@@ -4,7 +4,7 @@ const sitemapAndRobots = require('./sitemapAndRobots');
 
 const dev = process.env.NODE_ENV !== 'production';
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 const ROOT_URL = dev
   ? `http://localhost:${port}`
   : 'https://sitemap-robots.now.sh';
@@ -17,6 +17,10 @@ app.prepare().then(() => {
   const server = express();
 
   sitemapAndRobots({ server });
+
+  server.get('/company/:domain', (req, res) => {
+    return app.render(req, res, '/company', { domain: req.params.domain });
+  });
 
   server.get('*', (req, res) => handle(req, res));
 

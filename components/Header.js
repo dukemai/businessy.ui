@@ -61,7 +61,7 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
             </li>
             <li>/</li>
             <li>
-              <Link href="/signup">
+              <Link href="/signin">
                 <a>Sign up</a>
               </Link>
             </li>

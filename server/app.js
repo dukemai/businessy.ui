@@ -22,6 +22,13 @@ app.prepare().then(() => {
     return app.render(req, res, '/company', { domain: req.params.domain });
   });
 
+  server.get('/search/:category/:subcategory?', (req, res) => {
+    return app.render(req, res, '/search', {
+      category: req.params.category,
+      subcategory: req.params.subcategory,
+    });
+  });
+
   server.get('*', (req, res) => handle(req, res));
 
   // starting express server

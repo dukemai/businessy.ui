@@ -1,0 +1,2757 @@
+[
+  {
+    "label": "Marketing Automation",
+    "link": "/search/marketing-automation"
+  },
+  {
+    "label": "Marketing Automation Platforms",
+    "link": "/search/marketing-automation/marketing-automation-platforms"
+  },
+  {
+    "label": "Cross-Channel Marketing Automation",
+    "link": "/search/marketing-automation/cross-channel-marketing-automation"
+  },
+  {
+    "label": "Retention Marketing",
+    "link": "/search/marketing-automation/retention-marketing"
+  },
+  {
+    "label": "Customer Data Integration",
+    "link": "/search/marketing-automation/customer-data-integration"
+  },
+  {
+    "label": "Email Marketing",
+    "link": "/search/email-marketing"
+  },
+  {
+    "label": "Email Marketing Platforms",
+    "link": "/search/email-marketing/email-marketing-platforms"
+  },
+  {
+    "label": "Email Marketing Automation",
+    "link": "/search/email-marketing/email-marketing-automation"
+  },
+  {
+    "label": "Email Deliverability",
+    "link": "/search/email-marketing/email-deliverability"
+  },
+  {
+    "label": "Newsletter Marketing",
+    "link": "/search/email-marketing/newsletter-marketing"
+  },
+  {
+    "label": "Transactional Email",
+    "link": "/search/email-marketing/transactional-email"
+  },
+  {
+    "label": "Email Service Provider",
+    "link": "/search/email-marketing/email-service-provider"
+  },
+  {
+    "label": "Email Personalization",
+    "link": "/search/email-marketing/email-personalization"
+  },
+  {
+    "label": "Lifecycle Marketing",
+    "link": "/search/email-marketing/lifecycle-marketing"
+  },
+  {
+    "label": "Email Verification",
+    "link": "/search/email-marketing/email-verification"
+  },
+  {
+    "label": "Social Media"
+  },
+  {
+    "label": "Social Marketing",
+    "link": "/search/social-media/social-marketing"
+  },
+  {
+    "label": "Instagram Marketing",
+    "link": "/search/social-media/instagram-marketing"
+  },
+  {
+    "label": "Snapchat Marketing",
+    "link": "/search/social-media/snapchat-marketing"
+  },
+  {
+    "label": "Twitter Marketing",
+    "link": "/search/social-media/twitter-marketing"
+  },
+  {
+    "label": "Social Media Management",
+    "link": "/search/social-media/social-media-management"
+  },
+  {
+    "label": "Social Media Monitoring",
+    "link": "/search/social-media/social-media-monitoring"
+  },
+  {
+    "label": "Influencer Marketplace",
+    "link": "/search/social-media/influencer-marketplace"
+  },
+  {
+    "label": "Social Media Data",
+    "link": "/search/social-media/social-media-data"
+  },
+  {
+    "label": "Social Media Aggregator",
+    "link": "/search/social-media/social-media-aggregator"
+  },
+  {
+    "label": "Social Media Retargeting",
+    "link": "/search/social-media/social-media-retargeting"
+  },
+  {
+    "label": "Influencer Marketing",
+    "link": "/search/social-media/influencer-marketing"
+  },
+  {
+    "label": "Social Advertising",
+    "link": "/search/social-media/social-advertising"
+  },
+  {
+    "label": "Social Media Archiving",
+    "link": "/search/social-media/social-media-archiving"
+  },
+  {
+    "label": "Social Share and Follow Buttons",
+    "link": "/search/social-media/social-share-and-follow-buttons"
+  },
+  {
+    "label": "Mobile Marketing",
+    "link": "/search/mobile-marketing"
+  },
+  {
+    "label": "Mobile Marketing Automation",
+    "link": "/search/mobile-marketing/mobile-marketing-automation"
+  },
+  {
+    "label": "Mobile Ad Exchange",
+    "link": "/search/mobile-marketing/mobile-ad-exchange"
+  },
+  {
+    "label": "Mobile Ad Network",
+    "link": "/search/mobile-marketing/mobile-ad-network"
+  },
+  {
+    "label": "Mobile Ad Mediation",
+    "link": "/search/mobile-marketing/mobile-ad-mediation"
+  },
+  {
+    "label": "Mobile Retargeting",
+    "link": "/search/mobile-marketing/mobile-retargeting"
+  },
+  {
+    "label": "Location Marketing",
+    "link": "/search/mobile-marketing/location-marketing"
+  },
+  {
+    "label": "Mobile Advertising",
+    "link": "/search/mobile-marketing/mobile-advertising"
+  },
+  {
+    "label": "Mobile App Marketing",
+    "link": "/search/mobile-marketing/mobile-app-marketing"
+  },
+  {
+    "label": "Push Notifications",
+    "link": "/search/mobile-marketing/push-notifications"
+  },
+  {
+    "label": "Content Marketing",
+    "link": "/search/content-marketing"
+  },
+  {
+    "label": "Content Marketing Tools",
+    "link": "/search/content-marketing/content-marketing-tools"
+  },
+  {
+    "label": "Interactive Content Marketing",
+    "link": "/search/content-marketing/interactive-content-marketing"
+  },
+  {
+    "label": "Content Discovery Platform",
+    "link": "/search/content-marketing/content-discovery-platform"
+  },
+  {
+    "label": "Content Recommendations",
+    "link": "/search/content-marketing/content-recommendations"
+  },
+  {
+    "label": "Content Moderation",
+    "link": "/search/content-marketing/content-moderation"
+  },
+  {
+    "label": "Content Marketplace",
+    "link": "/search/content-marketing/content-marketplace"
+  },
+  {
+    "label": "Translation and Localization",
+    "link": "/search/content-marketing/translation-and-localization"
+  },
+  {
+    "label": "Copywriting and Content Writing Services",
+    "link": "/search/content-marketing/copywriting-and-content-writing-services"
+  },
+  {
+    "label": "Digital Marketing",
+    "link": "/search/digital-marketing"
+  },
+  {
+    "label": "PR and Advertising Services",
+    "link": "/search/digital-marketing/pr-and-advertising-services"
+  },
+  {
+    "label": "Brand Marketing",
+    "link": "/search/digital-marketing/brand-marketing"
+  },
+  {
+    "label": "Campaign Management",
+    "link": "/search/digital-marketing/campaign-management"
+  },
+  {
+    "label": "Attribution Tracking",
+    "link": "/search/digital-marketing/attribution-tracking"
+  },
+  {
+    "label": "Audience Insights",
+    "link": "/search/digital-marketing/audience-insights"
+  },
+  {
+    "label": "Local Advertising",
+    "link": "/search/digital-marketing/local-advertising"
+  },
+  {
+    "label": "Display Advertising",
+    "link": "/search/digital-marketing/display-advertising"
+  },
+  {
+    "label": "Marketing Performance Management",
+    "link": "/search/digital-marketing/marketing-performance-management"
+  },
+  {
+    "label": "Tag Management",
+    "link": "/search/digital-marketing/tag-management"
+  },
+  {
+    "label": "Media Monitoring",
+    "link": "/search/digital-marketing/media-monitoring"
+  },
+  {
+    "label": "Digital Marketing Services",
+    "link": "/search/digital-marketing/digital-marketing-services"
+  },
+  {
+    "label": "Other Marketing Tech",
+    "link": "/search/digital-marketing/other-marketing-tech"
+  },
+  {
+    "label": "SEO and Search Marketing",
+    "link": "/search/seo-and-search-marketing"
+  },
+  {
+    "label": "Website Optimization",
+    "link": "/search/seo-and-search-marketing/website-optimization"
+  },
+  {
+    "label": "Reputation Management",
+    "link": "/search/seo-and-search-marketing/reputation-management"
+  },
+  {
+    "label": "Search Marketing",
+    "link": "/search/seo-and-search-marketing/search-marketing"
+  },
+  {
+    "label": "Keyword Research Tools",
+    "link": "/search/seo-and-search-marketing/keyword-research-tools"
+  },
+  {
+    "label": "Backlink Monitoring",
+    "link": "/search/seo-and-search-marketing/backlink-monitoring"
+  },
+  {
+    "label": "Marketing Intelligence",
+    "link": "/search/marketing-intelligence"
+  },
+  {
+    "label": "Market Research",
+    "link": "/search/marketing-intelligence/market-research"
+  },
+  {
+    "label": "Competitive Intelligence",
+    "link": "/search/marketing-intelligence/competitive-intelligence"
+  },
+  {
+    "label": "Marketing Planning and Strategy Management",
+    "link": "/search/marketing-intelligence/marketing-planning-and-strategy-management"
+  },
+  {
+    "label": "AD Tech"
+  },
+  {
+    "label": "Demand Side Platform (DSP)",
+    "link": "/search/ad-tech/demand-side-platform-dsp"
+  },
+  {
+    "label": "Supply Side Platform (SSP)",
+    "link": "/search/ad-tech/supply-side-platform-ssp"
+  },
+  {
+    "label": "Data Management Platform (DMP)",
+    "link": "/search/ad-tech/data-management-platform-dmp"
+  },
+  {
+    "label": "Site Retargeting",
+    "link": "/search/ad-tech/site-retargeting"
+  },
+  {
+    "label": "Behavioral Targeting",
+    "link": "/search/ad-tech/behavioral-targeting"
+  },
+  {
+    "label": "Cross-Device Targeting",
+    "link": "/search/ad-tech/cross-device-targeting"
+  },
+  {
+    "label": "Online Audience Data",
+    "link": "/search/ad-tech/online-audience-data"
+  },
+  {
+    "label": "Video Ad Platform",
+    "link": "/search/ad-tech/video-ad-platform"
+  },
+  {
+    "label": "Native Advertising",
+    "link": "/search/ad-tech/native-advertising"
+  },
+  {
+    "label": "Cross-channel Advertising",
+    "link": "/search/ad-tech/cross-channel-advertising"
+  },
+  {
+    "label": "Ad Creative Management",
+    "link": "/search/ad-tech/ad-creative-management"
+  },
+  {
+    "label": "Advertising Optimization",
+    "link": "/search/ad-tech/advertising-optimization"
+  },
+  {
+    "label": "Publisher Monetization",
+    "link": "/search/ad-tech/publisher-monetization"
+  },
+  {
+    "label": "Application Monetization",
+    "link": "/search/ad-tech/application-monetization"
+  },
+  {
+    "label": "Ad Tech Infrastructure",
+    "link": "/search/ad-tech/ad-tech-infrastructure"
+  },
+  {
+    "label": "Ad Fraud Detection",
+    "link": "/search/ad-tech/ad-fraud-detection"
+  },
+  {
+    "label": "Ad Creative Services",
+    "link": "/search/ad-tech/ad-creative-services"
+  },
+  {
+    "label": "Demand Generation",
+    "link": "/search/demand-generation"
+  },
+  {
+    "label": "Channel Marketing",
+    "link": "/search/demand-generation/channel-marketing"
+  },
+  {
+    "label": "Small Business Marketing",
+    "link": "/search/demand-generation/small-business-marketing"
+  },
+  {
+    "label": "Loyalty Marketing",
+    "link": "/search/demand-generation/loyalty-marketing"
+  },
+  {
+    "label": "Referral Marketing",
+    "link": "/search/demand-generation/referral-marketing"
+  },
+  {
+    "label": "Multi-Level Marketing",
+    "link": "/search/demand-generation/multi-level-marketing"
+  },
+  {
+    "label": "Advocate Marketing",
+    "link": "/search/demand-generation/advocate-marketing"
+  },
+  {
+    "label": "Affiliate Marketing",
+    "link": "/search/demand-generation/affiliate-marketing"
+  },
+  {
+    "label": "Account Based Marketing",
+    "link": "/search/demand-generation/account-based-marketing"
+  },
+  {
+    "label": "Promotional Marketing",
+    "link": "/search/demand-generation/promotional-marketing"
+  },
+  {
+    "label": "Direct Mail / Snail Mail Marketing",
+    "link": "/search/demand-generation/direct-mail-snail-mail-marketing"
+  },
+  {
+    "label": "Corporate Greeting Cards",
+    "link": "/search/demand-generation/corporate-greeting-cards"
+  },
+  {
+    "label": "Event Marketing and Management",
+    "link": "/search/demand-generation/event-marketing-and-management"
+  },
+  {
+    "label": "Audio Marketing",
+    "link": "/search/demand-generation/audio-marketing"
+  },
+  {
+    "label": "Lookalike Modeling",
+    "link": "/search/demand-generation/lookalike-modeling"
+  },
+  {
+    "label": "Sales and BD"
+  },
+  {
+    "label": "Outsourced Sales",
+    "link": "/search/sales/outsourced-sales"
+  },
+  {
+    "label": "Configure Price Quote (CPQ) Software",
+    "link": "/search/sales/configure-price-quote-cpq-software"
+  },
+  {
+    "label": "Sales Document Tracking",
+    "link": "/search/sales/sales-document-tracking"
+  },
+  {
+    "label": "Sales Enablement",
+    "link": "/search/sales/sales-enablement"
+  },
+  {
+    "label": "Sales Engagement",
+    "link": "/search/sales/sales-engagement"
+  },
+  {
+    "label": "Sales Force Automation",
+    "link": "/search/sales/sales-force-automation"
+  },
+  {
+    "label": "Sales Intelligence",
+    "link": "/search/sales/sales-intelligence"
+  },
+  {
+    "label": "Sales Operations Management",
+    "link": "/search/sales/sales-operations-management"
+  },
+  {
+    "label": "Sales Commission Software",
+    "link": "/search/sales/sales-commission-software"
+  },
+  {
+    "label": "Sales Productivity",
+    "link": "/search/sales/sales-productivity"
+  },
+  {
+    "label": "Conversation Intelligence",
+    "link": "/search/sales/conversation-intelligence"
+  },
+  {
+    "label": "CRM"
+  },
+  {
+    "label": "Lead Generation",
+    "link": "/search/crm/lead-generation"
+  },
+  {
+    "label": "Membership Management",
+    "link": "/search/crm/membership-management"
+  },
+  {
+    "label": "Lead Capture Forms",
+    "link": "/search/crm/lead-capture-forms"
+  },
+  {
+    "label": "Salesforce Data Maintenance",
+    "link": "/search/crm/salesforce-data-maintenance"
+  },
+  {
+    "label": "Small Business CRM",
+    "link": "/search/crm/small-business-crm"
+  },
+  {
+    "label": "Contact Management",
+    "link": "/search/crm/contact-management"
+  },
+  {
+    "label": "Customer Data Enrichment",
+    "link": "/search/crm/customer-data-enrichment"
+  },
+  {
+    "label": "Other CRM and Sales",
+    "link": "/search/crm/other-crm-and-sales"
+  },
+  {
+    "label": "Help Desk and Ticketing",
+    "link": "/search/support/help-desk-and-ticketing"
+  },
+  {
+    "label": "Self Service Support",
+    "link": "/search/support/self-service-support"
+  },
+  {
+    "label": "Mobile Customer Support",
+    "link": "/search/support/mobile-customer-support"
+  },
+  {
+    "label": "Social Customer Support",
+    "link": "/search/support/social-customer-support"
+  },
+  {
+    "label": "Single Customer View",
+    "link": "/search/support/single-customer-view"
+  },
+  {
+    "label": "Cloud Contact Center Software",
+    "link": "/search/support/cloud-contact-center-software"
+  },
+  {
+    "label": "Video Chat Support",
+    "link": "/search/support/video-chat-support"
+  },
+  {
+    "label": "Remote Support",
+    "link": "/search/support/remote-support"
+  },
+  {
+    "label": "Customer Support Automation",
+    "link": "/search/support/customer-support-automation"
+  },
+  {
+    "label": "Customer Support",
+    "link": "/search/support/customer-support"
+  },
+  {
+    "label": "Customer Support Services",
+    "link": "/search/support/customer-support-services"
+  },
+  {
+    "label": "User Guides and Help Documentation Software",
+    "link": "/search/support/user-guides-and-help-documentation-software"
+  },
+  {
+    "label": "Video Tutorial Software",
+    "link": "/search/support/video-tutorial-software"
+  },
+  {
+    "label": "Community"
+  },
+  {
+    "label": "Community Management",
+    "link": "/search/community/community-management"
+  },
+  {
+    "label": "Forums and Forum Software",
+    "link": "/search/community/forums-and-forum-software"
+  },
+  {
+    "label": "Q and A Platform",
+    "link": "/search/community/q-and-a-platform"
+  },
+  {
+    "label": "User Engagement and Feedback",
+    "link": "/search/user-engagement-and-feedback"
+  },
+  {
+    "label": "Customer Success Platform",
+    "link": "/search/user-engagement-and-feedback/customer-success-platform"
+  },
+  {
+    "label": "In-app User Feedback",
+    "link": "/search/user-engagement-and-feedback/in-app-user-feedback"
+  },
+  {
+    "label": "Crowdsourced Feedback",
+    "link": "/search/user-engagement-and-feedback/crowdsourced-feedback"
+  },
+  {
+    "label": "Polls and Quizzes",
+    "link": "/search/user-engagement-and-feedback/polls-and-quizzes"
+  },
+  {
+    "label": "Forms and Surveys",
+    "link": "/search/user-engagement-and-feedback/forms-and-surveys"
+  },
+  {
+    "label": "User Feedback Management",
+    "link": "/search/user-engagement-and-feedback/user-feedback-management"
+  },
+  {
+    "label": "Customer Experience Management",
+    "link": "/search/user-engagement-and-feedback/customer-experience-management"
+  },
+  {
+    "label": "Online Review Management",
+    "link": "/search/user-engagement-and-feedback/online-review-management"
+  },
+  {
+    "label": "Customer Satisfaction Ratings",
+    "link": "/search/user-engagement-and-feedback/customer-satisfaction-ratings"
+  },
+  {
+    "label": "Feedback Analytics",
+    "link": "/search/user-engagement-and-feedback/feedback-analytics"
+  },
+  {
+    "label": "User Onboarding and Engagement",
+    "link": "/search/user-engagement-and-feedback/user-onboarding-and-engagement"
+  },
+  {
+    "label": "Mobile Onboarding and Engagement",
+    "link": "/search/user-engagement-and-feedback/mobile-onboarding-and-engagement"
+  },
+  {
+    "label": "Other User Engagement and Feedback",
+    "link": "/search/user-engagement-and-feedback/other-user-engagement-and-feedback"
+  },
+  {
+    "label": "Release Management",
+    "link": "/search/software-development/release-management"
+  },
+  {
+    "label": "IDEs and Text Editors",
+    "link": "/search/software-development/ides-and-text-editors"
+  },
+  {
+    "label": "Rapid Application Development",
+    "link": "/search/software-development/rapid-application-development"
+  },
+  {
+    "label": "Application Frameworks",
+    "link": "/search/software-development/application-frameworks"
+  },
+  {
+    "label": "Netbeans Plugins",
+    "link": "/search/software-development/netbeans-plugins"
+  },
+  {
+    "label": "Mapping and GIS",
+    "link": "/search/software-development/mapping-and-gis"
+  },
+  {
+    "label": "Charting Tools and Libraries",
+    "link": "/search/software-development/charting-tools-and-libraries"
+  },
+  {
+    "label": "Graphing Tools and Libraries",
+    "link": "/search/software-development/graphing-tools-and-libraries"
+  },
+  {
+    "label": "Front End Framework",
+    "link": "/search/software-development/front-end-framework"
+  },
+  {
+    "label": "JavaScript MVC Framework",
+    "link": "/search/software-development/javascript-mvc-framework"
+  },
+  {
+    "label": "JS Build Tools/Task Runners",
+    "link": "/search/software-development/js-build-toolstask-runners"
+  },
+  {
+    "label": "CSS Preprocessor",
+    "link": "/search/software-development/css-preprocessor"
+  },
+  {
+    "label": "Game Development",
+    "link": "/search/software-development/game-development"
+  },
+  {
+    "label": "Queueing, Messaging and Background Processing",
+    "link": "/search/software-development/queueing-messaging-and-background-processing"
+  },
+  {
+    "label": "Notifications and Alerting",
+    "link": "/search/software-development/notifications-and-alerting"
+  },
+  {
+    "label": "Libraries and Widgets",
+    "link": "/search/software-development/libraries-and-widgets"
+  },
+  {
+    "label": "Cross Platform App Dev Tools",
+    "link": "/search/software-development/cross-platform-app-dev-tools"
+  },
+  {
+    "label": "Debugging Tools",
+    "link": "/search/software-development/debugging-tools"
+  },
+  {
+    "label": "Static Site Publisher",
+    "link": "/search/software-development/static-site-publisher"
+  },
+  {
+    "label": "Backend as a Service",
+    "link": "/search/software-development/backend-as-a-service"
+  },
+  {
+    "label": "Application Lifecycle Management",
+    "link": "/search/software-development/application-lifecycle-management"
+  },
+  {
+    "label": "Software Development Services",
+    "link": "/search/software-development/software-development-services"
+  },
+  {
+    "label": "Other Dev Tools",
+    "link": "/search/software-development/other-dev-tools"
+  },
+  {
+    "label": "API and Developer Tools",
+    "link": "/search/api-and-developer-tools"
+  },
+  {
+    "label": "Enterprise Search",
+    "link": "/search/api-and-developer-tools/enterprise-search"
+  },
+  {
+    "label": "API Management",
+    "link": "/search/api-and-developer-tools/api-management"
+  },
+  {
+    "label": "API Documentation",
+    "link": "/search/api-and-developer-tools/api-documentation"
+  },
+  {
+    "label": "API Performance Monitoring",
+    "link": "/search/api-and-developer-tools/api-performance-monitoring"
+  },
+  {
+    "label": "API Marketplace",
+    "link": "/search/api-and-developer-tools/api-marketplace"
+  },
+  {
+    "label": "Changelog Management",
+    "link": "/search/api-and-developer-tools/changelog-management"
+  },
+  {
+    "label": "Address Verification API",
+    "link": "/search/api-and-developer-tools/address-verification-api"
+  },
+  {
+    "label": "Image Processing API",
+    "link": "/search/api-and-developer-tools/image-processing-api"
+  },
+  {
+    "label": "Voice and Messaging API",
+    "link": "/search/api-and-developer-tools/voice-and-messaging-api"
+  },
+  {
+    "label": "Code-Free Chatbot Builders",
+    "link": "/search/api-and-developer-tools/code-free-chatbot-builders"
+  },
+  {
+    "label": "Chatbot SDKs and APIs",
+    "link": "/search/api-and-developer-tools/chatbot-sdks-and-apis"
+  },
+  {
+    "label": "Text-To-Speech SDKs",
+    "link": "/search/api-and-developer-tools/text-to-speech-sdks"
+  },
+  {
+    "label": "Speech Recognition and Processing",
+    "link": "/search/api-and-developer-tools/speech-recognition-and-processing"
+  },
+  {
+    "label": "Package Manager",
+    "link": "/search/api-and-developer-tools/package-manager"
+  },
+  {
+    "label": "Integrations Marketplace",
+    "link": "/search/api-and-developer-tools/integrations-marketplace"
+  },
+  {
+    "label": "Plumbing and Middleware",
+    "link": "/search/api-and-developer-tools/plumbing-and-middleware"
+  },
+  {
+    "label": "Face Recognition API",
+    "link": "/search/api-and-developer-tools/face-recognition-api"
+  },
+  {
+    "label": "Spreadsheets as a Backend",
+    "link": "/search/api-and-developer-tools/spreadsheets-as-a-backend"
+  },
+  {
+    "label": "FTP and File Uploads",
+    "link": "/search/api-and-developer-tools/ftp-and-file-uploads"
+  },
+  {
+    "label": "Databases"
+  },
+  {
+    "label": "Time Series Databases",
+    "link": "/search/databases/time-series-databases"
+  },
+  {
+    "label": "Object Database",
+    "link": "/search/databases/object-database"
+  },
+  {
+    "label": "NoSQL Databases",
+    "link": "/search/databases/nosql-databases"
+  },
+  {
+    "label": "Graph Databases",
+    "link": "/search/databases/graph-databases"
+  },
+  {
+    "label": "Relational Databases",
+    "link": "/search/databases/relational-databases"
+  },
+  {
+    "label": "In-Memory Data Store",
+    "link": "/search/databases/in-memory-data-store"
+  },
+  {
+    "label": "Languages and Frameworks",
+    "link": "/search/languages-and-frameworks"
+  },
+  {
+    "label": "Web Framework",
+    "link": "/search/languages-and-frameworks/web-framework"
+  },
+  {
+    "label": "Serverless Frameworks",
+    "link": "/search/languages-and-frameworks/serverless-frameworks"
+  },
+  {
+    "label": "Unit Testing Frameworks",
+    "link": "/search/languages-and-frameworks/unit-testing-frameworks"
+  },
+  {
+    "label": "Mobile Development",
+    "link": "/search/mobile-development"
+  },
+  {
+    "label": "Mobile App Testing",
+    "link": "/search/mobile-development/mobile-app-testing"
+  },
+  {
+    "label": "Mobile Test Automation",
+    "link": "/search/mobile-development/mobile-test-automation"
+  },
+  {
+    "label": "Mobile App Dev Platform",
+    "link": "/search/mobile-development/mobile-app-dev-platform"
+  },
+  {
+    "label": "Mobile App Dev Tools",
+    "link": "/search/mobile-development/mobile-app-dev-tools"
+  },
+  {
+    "label": "Mobile App Dev Framework",
+    "link": "/search/mobile-development/mobile-app-dev-framework"
+  },
+  {
+    "label": "Mobile App Design Tools",
+    "link": "/search/mobile-development/mobile-app-design-tools"
+  },
+  {
+    "label": "Mobile Debugging Tools",
+    "link": "/search/mobile-development/mobile-debugging-tools"
+  },
+  {
+    "label": "Augmented Reality",
+    "link": "/search/mobile-development/augmented-reality"
+  },
+  {
+    "label": "DevOps"
+  },
+  {
+    "label": "Build and Deployment Automation",
+    "link": "/search/devops/build-and-deployment-automation"
+  },
+  {
+    "label": "Bug and Issue Tracking",
+    "link": "/search/devops/bug-and-issue-tracking"
+  },
+  {
+    "label": "Continuous Integration and Delivery",
+    "link": "/search/devops/continuous-integration-and-delivery"
+  },
+  {
+    "label": "Cluster Management",
+    "link": "/search/devops/cluster-management"
+  },
+  {
+    "label": "Mobile Device Management",
+    "link": "/search/devops/mobile-device-management"
+  },
+  {
+    "label": "Test Management",
+    "link": "/search/devops/test-management"
+  },
+  {
+    "label": "Test Automation",
+    "link": "/search/devops/test-automation"
+  },
+  {
+    "label": "Crowdsourced Testing",
+    "link": "/search/devops/crowdsourced-testing-1"
+  },
+  {
+    "label": "Browser Testing",
+    "link": "/search/devops/browser-testing"
+  },
+  {
+    "label": "Performance and Load Testing",
+    "link": "/search/devops/performance-and-load-testing"
+  },
+  {
+    "label": "Application Testing",
+    "link": "/search/devops/application-testing"
+  },
+  {
+    "label": "Cloud Operations Management",
+    "link": "/search/devops/cloud-operations-management"
+  },
+  {
+    "label": "IT Asset Management",
+    "link": "/search/devops/it-asset-management-1"
+  },
+  {
+    "label": "License Management",
+    "link": "/search/devops/license-management"
+  },
+  {
+    "label": "DevOps Services",
+    "link": "/search/devops/devops-services"
+  },
+  {
+    "label": "Application Maintenance and Monitoring",
+    "link": "/search/application-maintenance-and-monitoring"
+  },
+  {
+    "label": "Application Performance Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/application-performance-monitoring"
+  },
+  {
+    "label": "Log Management",
+    "link": "/search/application-maintenance-and-monitoring/log-management"
+  },
+  {
+    "label": "Error and Exception Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/error-and-exception-monitoring"
+  },
+  {
+    "label": "Mobile Error and Exception Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/mobile-error-and-exception-monitoring"
+  },
+  {
+    "label": "IT Service Management",
+    "link": "/search/application-maintenance-and-monitoring/it-service-management"
+  },
+  {
+    "label": "Application Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/application-monitoring"
+  },
+  {
+    "label": "Server Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/server-monitoring"
+  },
+  {
+    "label": "Infrastructure Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/infrastructure-monitoring"
+  },
+  {
+    "label": "Website Status Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/website-status-monitoring"
+  },
+  {
+    "label": "Application Status Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/application-status-monitoring"
+  },
+  {
+    "label": "Hosted Status Pages",
+    "link": "/search/application-maintenance-and-monitoring/hosted-status-pages"
+  },
+  {
+    "label": "Resource Profiling and Monitoring",
+    "link": "/search/application-maintenance-and-monitoring/resource-profiling-and-monitoring"
+  },
+  {
+    "label": "Infrastructure Management",
+    "link": "/search/application-maintenance-and-monitoring/infrastructure-management"
+  },
+  {
+    "label": "IT Financial Management",
+    "link": "/search/application-maintenance-and-monitoring/it-financial-management"
+  },
+  {
+    "label": "Content Delivery Network (CDN)",
+    "link": "/search/hosting/content-delivery-network-cdn"
+  },
+  {
+    "label": "Web Hosting Control Panel",
+    "link": "/search/hosting/web-hosting-control-panel"
+  },
+  {
+    "label": "Web Host Billing",
+    "link": "/search/hosting/web-host-billing"
+  },
+  {
+    "label": "Wordpress Hosting",
+    "link": "/search/hosting/wordpress-hosting"
+  },
+  {
+    "label": "Domain Management",
+    "link": "/search/hosting/domain-management"
+  },
+  {
+    "label": "PaaS, IaaS and Containers",
+    "link": "/search/paas-iaas-and-containers"
+  },
+  {
+    "label": "Infrastructure as a Service (IaaS)",
+    "link": "/search/paas-iaas-and-containers/infrastructure-as-a-service-iaas"
+  },
+  {
+    "label": "Platform as a Service (PaaS)",
+    "link": "/search/paas-iaas-and-containers/platform-as-a-service-paas"
+  },
+  {
+    "label": "Containers and Microservices",
+    "link": "/search/paas-iaas-and-containers/containers-and-microservices"
+  },
+  {
+    "label": "Private PaaS and IaaS",
+    "link": "/search/paas-iaas-and-containers/private-paas-and-iaas"
+  },
+  {
+    "label": "Integrations Platform as a Service (iPaaS)",
+    "link": "/search/paas-iaas-and-containers/integrations-platform-as-a-service-ipaas"
+  },
+  {
+    "label": "Servers, Networks and Storage",
+    "link": "/search/servers-networks-and-storage"
+  },
+  {
+    "label": "Backup and Disaster Recovery",
+    "link": "/search/servers-networks-and-storage/backup-and-disaster-recovery"
+  },
+  {
+    "label": "Backup Monitoring and Reporting",
+    "link": "/search/servers-networks-and-storage/backup-monitoring-and-reporting"
+  },
+  {
+    "label": "Converged Infrastructure",
+    "link": "/search/servers-networks-and-storage/converged-infrastructure"
+  },
+  {
+    "label": "Data Management and Storage",
+    "link": "/search/servers-networks-and-storage/data-management-and-storage"
+  },
+  {
+    "label": "Web and Application Servers",
+    "link": "/search/servers-networks-and-storage/web-and-application-servers"
+  },
+  {
+    "label": "Network Administration and Management",
+    "link": "/search/servers-networks-and-storage/network-administration-and-management"
+  },
+  {
+    "label": "Network Monitoring",
+    "link": "/search/servers-networks-and-storage/network-monitoring"
+  },
+  {
+    "label": "Blacklist Check and Monitoring",
+    "link": "/search/servers-networks-and-storage/blacklist-check-and-monitoring"
+  },
+  {
+    "label": "Network Mapping",
+    "link": "/search/servers-networks-and-storage/network-mapping"
+  },
+  {
+    "label": "Networking Hardware",
+    "link": "/search/servers-networks-and-storage/networking-hardware"
+  },
+  {
+    "label": "Software Defined Networking",
+    "link": "/search/servers-networks-and-storage/software-defined-networking"
+  },
+  {
+    "label": "Storage Infrastructure",
+    "link": "/search/servers-networks-and-storage/storage-infrastructure"
+  },
+  {
+    "label": "Software Defined Storage",
+    "link": "/search/servers-networks-and-storage/software-defined-storage"
+  },
+  {
+    "label": "Virtualization Platform",
+    "link": "/search/servers-networks-and-storage/virtualization-platform"
+  },
+  {
+    "label": "IT Infrastructure Services",
+    "link": "/search/servers-networks-and-storage/it-infrastructure-services"
+  },
+  {
+    "label": "Server and Desktop OS",
+    "link": "/search/servers-networks-and-storage/server-and-desktop-os"
+  },
+  {
+    "label": "Internet Service Provider",
+    "link": "/search/servers-networks-and-storage/internet-service-provider"
+  },
+  {
+    "label": "Other Infrastructure Tools",
+    "link": "/search/servers-networks-and-storage/other-infrastructure-tools"
+  },
+  {
+    "label": "Security"
+  },
+  {
+    "label": "Fraud Detection and Prevention",
+    "link": "/search/security/fraud-detection-and-prevention"
+  },
+  {
+    "label": "Endpoint Security",
+    "link": "/search/security/endpoint-security"
+  },
+  {
+    "label": "Unified Threat Management",
+    "link": "/search/security/unified-threat-management"
+  },
+  {
+    "label": "Security Information and Event Management (SIEM)",
+    "link": "/search/security/security-information-and-event-management-siem"
+  },
+  {
+    "label": "Identity and Access Management",
+    "link": "/search/security/identity-and-access-management"
+  },
+  {
+    "label": "Identity Verification and Protection",
+    "link": "/search/security/identity-verification-and-protection"
+  },
+  {
+    "label": "Two Factor Authentication",
+    "link": "/search/security/two-factor-authentication"
+  },
+  {
+    "label": "Password Management",
+    "link": "/search/security/password-management"
+  },
+  {
+    "label": "Cloud Access Security Broker",
+    "link": "/search/security/cloud-access-security-broker"
+  },
+  {
+    "label": "Cryptographic Key Management",
+    "link": "/search/security/cryptographic-key-management"
+  },
+  {
+    "label": "Malware Protection",
+    "link": "/search/security/malware-protection"
+  },
+  {
+    "label": "Scrape Protection",
+    "link": "/search/security/scrape-protection"
+  },
+  {
+    "label": "Auditing and Compliance",
+    "link": "/search/security/auditing-and-compliance"
+  },
+  {
+    "label": "Biometric Security",
+    "link": "/search/security/biometric-security"
+  },
+  {
+    "label": "Video Surveillance",
+    "link": "/search/security/video-surveillance"
+  },
+  {
+    "label": "Comment Spam Protection",
+    "link": "/search/security/comment-spam-protection"
+  },
+  {
+    "label": "Data Security and DLP",
+    "link": "/search/security/data-security-and-dlp"
+  },
+  {
+    "label": "Governance, Risk and Compliance",
+    "link": "/search/security/governance-risk-and-compliance"
+  },
+  {
+    "label": "Risk Management",
+    "link": "/search/security/risk-management"
+  },
+  {
+    "label": "Infrastructure Security",
+    "link": "/search/security/infrastructure-security"
+  },
+  {
+    "label": "Mobile App Security",
+    "link": "/search/security/mobile-app-security"
+  },
+  {
+    "label": "Network Security",
+    "link": "/search/security/network-security"
+  },
+  {
+    "label": "Perimeter Security and Firewalls",
+    "link": "/search/security/perimeter-security-and-firewalls"
+  },
+  {
+    "label": "Secure Shell (SSH)",
+    "link": "/search/security/secure-shell-ssh"
+  },
+  {
+    "label": "Managed Security Services",
+    "link": "/search/security/managed-security-services"
+  },
+  {
+    "label": "Patch Management",
+    "link": "/search/security/patch-management"
+  },
+  {
+    "label": "Security Analytics",
+    "link": "/search/security/security-analytics"
+  },
+  {
+    "label": "Web and Mobile Application Security",
+    "link": "/search/security/web-and-mobile-application-security"
+  },
+  {
+    "label": "Threat Detection and Prevention",
+    "link": "/search/security/threat-detection-and-prevention"
+  },
+  {
+    "label": "Virtual Private Network (VPN)",
+    "link": "/search/security/virtual-private-network-vpn"
+  },
+  {
+    "label": "Content Management System (CMS)",
+    "link": "/search/content-management-system-cms"
+  },
+  {
+    "label": "Enterprise Content Management",
+    "link": "/search/content-management-system-cms/enterprise-content-management"
+  },
+  {
+    "label": "Document Management System",
+    "link": "/search/content-management-system-cms/document-management-system"
+  },
+  {
+    "label": "Blogging Platform",
+    "link": "/search/content-management-system-cms/blogging-platform"
+  },
+  {
+    "label": "Podcast Hosting and Publishing",
+    "link": "/search/content-management-system-cms/podcast-hosting-and-publishing"
+  },
+  {
+    "label": "Digital Asset Management",
+    "link": "/search/content-management-system-cms/digital-asset-management"
+  },
+  {
+    "label": "Web Content Management",
+    "link": "/search/content-management-system-cms/web-content-management"
+  },
+  {
+    "label": "Records Management",
+    "link": "/search/content-management-system-cms/records-management"
+  },
+  {
+    "label": "Media Transcoding",
+    "link": "/search/content-management-system-cms/media-transcoding"
+  },
+  {
+    "label": "Knowledge Management",
+    "link": "/search/content-management-system-cms/knowledge-management"
+  },
+  {
+    "label": "Knowledge Base",
+    "link": "/search/content-management-system-cms/knowledge-base"
+  },
+  {
+    "label": "e-Books and Digital Publishing Software",
+    "link": "/search/content-management-system-cms/e-books-and-digital-publishing-software"
+  },
+  {
+    "label": "Document Workflow Automation",
+    "link": "/search/content-management-system-cms/document-workflow-automation"
+  },
+  {
+    "label": "Wordpress Plugins",
+    "link": "/search/content-management-system-cms/wordpress-plugins"
+  },
+  {
+    "label": "Comment System",
+    "link": "/search/content-management-system-cms/comment-system"
+  },
+  {
+    "label": "Media Players and Streaming Platforms",
+    "link": "/search/content-management-system-cms/media-players-and-streaming-platforms"
+  },
+  {
+    "label": "Project Management",
+    "link": "/search/product-management/project-management"
+  },
+  {
+    "label": "Task Management",
+    "link": "/search/product-management/task-management"
+  },
+  {
+    "label": "Product Roadmaps",
+    "link": "/search/product-management/product-roadmaps"
+  },
+  {
+    "label": "Software Project Management",
+    "link": "/search/product-management/software-project-management"
+  },
+  {
+    "label": "Requirements Management",
+    "link": "/search/product-management/requirements-management"
+  },
+  {
+    "label": "Brainstorming and Ideation",
+    "link": "/search/product-management/brainstorming-and-ideation"
+  },
+  {
+    "label": "Review, Approval and Proofing",
+    "link": "/search/product-management/review-approval-and-proofing"
+  },
+  {
+    "label": "Usability Testing",
+    "link": "/search/product-management/usability-testing"
+  },
+  {
+    "label": "Project Portfolio Management",
+    "link": "/search/product-management/project-portfolio-management"
+  },
+  {
+    "label": "Agile Project Management",
+    "link": "/search/product-management/agile-project-management"
+  },
+  {
+    "label": "Progress Reporting",
+    "link": "/search/product-management/progress-reporting"
+  },
+  {
+    "label": "Collaborative Calendars",
+    "link": "/search/product-management/collaborative-calendars"
+  },
+  {
+    "label": "Simulation Modeling",
+    "link": "/search/product-management/simulation-modeling"
+  },
+  {
+    "label": "Design"
+  },
+  {
+    "label": "Mockups, Wireframing and Prototyping",
+    "link": "/search/design/mockups-wireframing-and-prototyping"
+  },
+  {
+    "label": "Collaborative Design and Prototyping",
+    "link": "/search/design/collaborative-design-and-prototyping"
+  },
+  {
+    "label": "Version Control for Designers",
+    "link": "/search/design/version-control-for-designers"
+  },
+  {
+    "label": "Design Reviews and Feedback",
+    "link": "/search/design/design-reviews-and-feedback"
+  },
+  {
+    "label": "Creative Design Services",
+    "link": "/search/design/creative-design-services"
+  },
+  {
+    "label": "WYSIWYG Editors",
+    "link": "/search/design/wysiwyg-editors"
+  },
+  {
+    "label": "Web Fonts and Design Assets",
+    "link": "/search/design/web-fonts-and-design-assets"
+  },
+  {
+    "label": "Graphic Design Software",
+    "link": "/search/design/graphic-design-software"
+  },
+  {
+    "label": "Digital Drawing and Painting",
+    "link": "/search/design/digital-drawing-and-painting"
+  },
+  {
+    "label": "App Screenshot Builder",
+    "link": "/search/design/app-screenshot-builder"
+  },
+  {
+    "label": "Mobile App Builder",
+    "link": "/search/design/mobile-app-builder"
+  },
+  {
+    "label": "Creative Portfolio Management",
+    "link": "/search/design/creative-portfolio-management"
+  },
+  {
+    "label": "Website Templates",
+    "link": "/search/design/website-templates"
+  },
+  {
+    "label": "Design Agencies and Services",
+    "link": "/search/design/design-agencies-and-services"
+  },
+  {
+    "label": "Interaction Design",
+    "link": "/search/design/interaction-design"
+  },
+  {
+    "label": "CAD Data Exchange",
+    "link": "/search/design/cad-data-exchange"
+  },
+  {
+    "label": "Design Marketplace",
+    "link": "/search/design/design-marketplace"
+  },
+  {
+    "label": "Other Design Tools",
+    "link": "/search/design/other-design-tools"
+  },
+  {
+    "label": "Analytics and Data Science"
+  },
+  {
+    "label": "Analytics and BI Platform",
+    "link": "/search/analytics-and-business-intelligence/analytics-and-bi-platform"
+  },
+  {
+    "label": "Mobile A/B Testing",
+    "link": "/search/analytics-and-business-intelligence/mobile-ab-testing"
+  },
+  {
+    "label": "Mobile Analytics",
+    "link": "/search/analytics-and-business-intelligence/mobile-analytics"
+  },
+  {
+    "label": "Session Recording and Playback",
+    "link": "/search/analytics-and-business-intelligence/session-recording-and-playback"
+  },
+  {
+    "label": "Website Visit Counter",
+    "link": "/search/analytics-and-business-intelligence/website-visit-counter"
+  },
+  {
+    "label": "Data Visualization",
+    "link": "/search/analytics-and-business-intelligence/data-visualization"
+  },
+  {
+    "label": "Predictive Analytics",
+    "link": "/search/analytics-and-business-intelligence/predictive-analytics"
+  },
+  {
+    "label": "Analytics Dashboard",
+    "link": "/search/analytics-and-business-intelligence/analytics-dashboard"
+  },
+  {
+    "label": "Marketing Analytics",
+    "link": "/search/analytics-and-business-intelligence/marketing-analytics"
+  },
+  {
+    "label": "Call Tracking and Analytics",
+    "link": "/search/analytics-and-business-intelligence/call-tracking-and-analytics"
+  },
+  {
+    "label": "Visitor Analytics",
+    "link": "/search/analytics-and-business-intelligence/visitor-analytics"
+  },
+  {
+    "label": "Conversion Optimization",
+    "link": "/search/analytics-and-business-intelligence/conversion-optimization"
+  },
+  {
+    "label": "Advertising Measurement",
+    "link": "/search/analytics-and-business-intelligence/advertising-measurement"
+  },
+  {
+    "label": "Other BI and Analytics",
+    "link": "/search/analytics-and-business-intelligence/other-bi-and-analytics"
+  },
+  {
+    "label": "Data Science and Machine Learning",
+    "link": "/search/data-science/data-science-and-machine-learning"
+  },
+  {
+    "label": "Data Integration",
+    "link": "/search/data-science/data-integration"
+  },
+  {
+    "label": "NLP and Text Analytics",
+    "link": "/search/data-science/nlp-and-text-analytics"
+  },
+  {
+    "label": "Data Preparation",
+    "link": "/search/data-science/data-preparation"
+  },
+  {
+    "label": "Event and Log Data Analysis",
+    "link": "/search/data-science/event-and-log-data-analysis"
+  },
+  {
+    "label": "Big Data Analytics",
+    "link": "/search/data-science/big-data-analytics"
+  },
+  {
+    "label": "Data Infrastructure",
+    "link": "/search/data-infrastructure"
+  },
+  {
+    "label": "Realtime Backend",
+    "link": "/search/data-infrastructure/realtime-backend"
+  },
+  {
+    "label": "Big Data Infrastructure",
+    "link": "/search/data-infrastructure/big-data-infrastructure"
+  },
+  {
+    "label": "Data Warehousing",
+    "link": "/search/data-infrastructure/data-warehousing"
+  },
+  {
+    "label": "Stream Processing",
+    "link": "/search/data-infrastructure/stream-processing"
+  },
+  {
+    "label": "Master Data Management",
+    "link": "/search/data-infrastructure/master-data-management"
+  },
+  {
+    "label": "Data Governance",
+    "link": "/search/data-infrastructure/data-governance"
+  },
+  {
+    "label": "Electronic Data Interchange (EDI)",
+    "link": "/search/data-infrastructure/electronic-data-interchange-edi"
+  },
+  {
+    "label": "HR"
+  },
+  {
+    "label": "ATS and Recruiting",
+    "link": "/search/hiring/ats-and-recruiting"
+  },
+  {
+    "label": "Talent Marketplace",
+    "link": "/search/hiring/talent-marketplace"
+  },
+  {
+    "label": "Software for Job Boards",
+    "link": "/search/hiring/software-for-job-boards"
+  },
+  {
+    "label": "Referral Recruiting",
+    "link": "/search/hiring/referral-recruiting"
+  },
+  {
+    "label": "Social Recruiting",
+    "link": "/search/hiring/social-recruiting"
+  },
+  {
+    "label": "Digital Interview Platform",
+    "link": "/search/hiring/digital-interview-platform"
+  },
+  {
+    "label": "Candidate Screening and Assessment",
+    "link": "/search/hiring/candidate-screening-and-assessment"
+  },
+  {
+    "label": "Interview Scheduling",
+    "link": "/search/hiring/interview-scheduling"
+  },
+  {
+    "label": "Recruitment Marketing",
+    "link": "/search/hiring/recruitment-marketing"
+  },
+  {
+    "label": "Data-Driven Recruiting",
+    "link": "/search/hiring/data-driven-recruiting"
+  },
+  {
+    "label": "Employment Background Checks",
+    "link": "/search/hiring/employment-background-checks"
+  },
+  {
+    "label": "Freelance Marketplace",
+    "link": "/search/hiring/freelance-marketplace"
+  },
+  {
+    "label": "Engineer Recruiting",
+    "link": "/search/hiring/engineer-recruiting"
+  },
+  {
+    "label": "Outsourced HR Services",
+    "link": "/search/hiring/outsourced-hr-services"
+  },
+  {
+    "label": "Workforce Management",
+    "link": "/search/workforce-management"
+  },
+  {
+    "label": "Corporate LMS and Training",
+    "link": "/search/workforce-management/corporate-lms-and-training"
+  },
+  {
+    "label": "Corporate Mentoring",
+    "link": "/search/workforce-management/corporate-mentoring"
+  },
+  {
+    "label": "Human Capital Management",
+    "link": "/search/workforce-management/human-capital-management"
+  },
+  {
+    "label": "Employee Onboarding",
+    "link": "/search/workforce-management/employee-onboarding"
+  },
+  {
+    "label": "Employee Offboarding",
+    "link": "/search/workforce-management/employee-offboarding"
+  },
+  {
+    "label": "Employee Performance Management",
+    "link": "/search/workforce-management/employee-performance-management"
+  },
+  {
+    "label": "Employee Benefits",
+    "link": "/search/workforce-management/employee-benefits"
+  },
+  {
+    "label": "Employee Engagement",
+    "link": "/search/workforce-management/employee-engagement"
+  },
+  {
+    "label": "Employee Rewards and Recognition",
+    "link": "/search/workforce-management/employee-rewards-and-recognition"
+  },
+  {
+    "label": "Leave Management",
+    "link": "/search/workforce-management/leave-management"
+  },
+  {
+    "label": "Employee Compensation",
+    "link": "/search/workforce-management/employee-compensation"
+  },
+  {
+    "label": "Company Culture Management",
+    "link": "/search/workforce-management/company-culture-management"
+  },
+  {
+    "label": "Employee Feedback System",
+    "link": "/search/workforce-management/employee-feedback-system"
+  },
+  {
+    "label": "Employee Monitoring",
+    "link": "/search/workforce-management/employee-monitoring"
+  },
+  {
+    "label": "Goal Setting and OKRs",
+    "link": "/search/workforce-management/goal-setting-and-okrs"
+  },
+  {
+    "label": "People Analytics",
+    "link": "/search/workforce-management/people-analytics"
+  },
+  {
+    "label": "Employee Wellness",
+    "link": "/search/workforce-management/employee-wellness"
+  },
+  {
+    "label": "Resource Scheduling",
+    "link": "/search/workforce-management/resource-scheduling"
+  },
+  {
+    "label": "401(K) Retirement Planning",
+    "link": "/search/workforce-management/401k-retirement-planning"
+  },
+  {
+    "label": "Internal Knowledgebase",
+    "link": "/search/workforce-management/internal-knowledgebase"
+  },
+  {
+    "label": "Workforce Optimization",
+    "link": "/search/workforce-management/workforce-optimization"
+  },
+  {
+    "label": "Contractor Workforce Management",
+    "link": "/search/workforce-management/contractor-workforce-management"
+  },
+  {
+    "label": "Field Service Management",
+    "link": "/search/workforce-management/field-service-management"
+  },
+  {
+    "label": "Employee Directory",
+    "link": "/search/workforce-management/employee-directory"
+  },
+  {
+    "label": "Remote Team Management",
+    "link": "/search/workforce-management/remote-team-management"
+  },
+  {
+    "label": "Whistleblowing and Ethics Reporting",
+    "link": "/search/workforce-management/whistleblowing-and-ethics-reporting"
+  },
+  {
+    "label": "Workplace Health and Safety (WHS)",
+    "link": "/search/workforce-management/workplace-health-and-safety-whs"
+  },
+  {
+    "label": "Other HR Software",
+    "link": "/search/workforce-management/other-hr-software"
+  },
+  {
+    "label": "Finance"
+  },
+  {
+    "label": "Payroll Management",
+    "link": "/search/finance/payroll-management"
+  },
+  {
+    "label": "Enterprise Resource Planning (ERP)",
+    "link": "/search/finance/enterprise-resource-planning-erp"
+  },
+  {
+    "label": "Budgeting and Forecasting",
+    "link": "/search/finance/budgeting-and-forecasting"
+  },
+  {
+    "label": "Financial Planning",
+    "link": "/search/finance/financial-planning"
+  },
+  {
+    "label": "SaaS Spend Optimization",
+    "link": "/search/finance/saas-spend-optimization"
+  },
+  {
+    "label": "Expense Management and Reporting",
+    "link": "/search/finance/expense-management-and-reporting"
+  },
+  {
+    "label": "Travel Expense Management",
+    "link": "/search/finance/travel-expense-management"
+  },
+  {
+    "label": "Cap Table Management",
+    "link": "/search/finance/cap-table-management"
+  },
+  {
+    "label": "Deal Flow and Portfolio Management",
+    "link": "/search/finance/deal-flow-and-portfolio-management"
+  },
+  {
+    "label": "Business Lending",
+    "link": "/search/finance/business-lending"
+  },
+  {
+    "label": "Investor Marketplace",
+    "link": "/search/finance/investor-marketplace"
+  },
+  {
+    "label": "Revenue Analytics",
+    "link": "/search/finance/revenue-analytics"
+  },
+  {
+    "label": "Procurement and Purchasing",
+    "link": "/search/finance/procurement-and-purchasing"
+  },
+  {
+    "label": "Financial Risk Management",
+    "link": "/search/finance/financial-risk-management"
+  },
+  {
+    "label": "Personal Expense Management",
+    "link": "/search/finance/personal-expense-management"
+  },
+  {
+    "label": "Financial Performance Management",
+    "link": "/search/finance/financial-performance-management"
+  },
+  {
+    "label": "Professional Services Automation",
+    "link": "/search/finance/professional-services-automation"
+  },
+  {
+    "label": "Investment and Finance Services",
+    "link": "/search/finance/investment-and-finance-services"
+  },
+  {
+    "label": "Other Finance and Accounting",
+    "link": "/search/finance/other-finance-and-accounting"
+  },
+  {
+    "label": "Accounting"
+  },
+  {
+    "label": "Billing and Invoicing",
+    "link": "/search/accounting/billing-and-invoicing"
+  },
+  {
+    "label": "Bookkeeping and Accounting",
+    "link": "/search/accounting/bookkeeping-and-accounting"
+  },
+  {
+    "label": "Accounts Payable",
+    "link": "/search/accounting/accounts-payable"
+  },
+  {
+    "label": "Accounts Receivable",
+    "link": "/search/accounting/accounts-receivable"
+  },
+  {
+    "label": "Small Business Accounting",
+    "link": "/search/accounting/small-business-accounting"
+  },
+  {
+    "label": "Tax and Compliance Software",
+    "link": "/search/accounting/tax-and-compliance-software"
+  },
+  {
+    "label": "Contract Management",
+    "link": "/search/accounting/contract-management"
+  },
+  {
+    "label": "Accounting and Tax Services",
+    "link": "/search/accounting/accounting-and-tax-services"
+  },
+  {
+    "label": "Payments"
+  },
+  {
+    "label": "Payments Processing",
+    "link": "/search/payments/payments-processing"
+  },
+  {
+    "label": "Recurring Billing and Payments",
+    "link": "/search/payments/recurring-billing-and-payments"
+  },
+  {
+    "label": "Direct Carrier Billing",
+    "link": "/search/payments/direct-carrier-billing"
+  },
+  {
+    "label": "Mobile Payments",
+    "link": "/search/payments/mobile-payments"
+  },
+  {
+    "label": "Online Payment Security",
+    "link": "/search/payments/online-payment-security"
+  },
+  {
+    "label": "Credit Reporting",
+    "link": "/search/fin-tech/credit-reporting"
+  },
+  {
+    "label": "Account Reconciliation",
+    "link": "/search/fin-tech/account-reconciliation"
+  },
+  {
+    "label": "Loan Management",
+    "link": "/search/fin-tech/loan-management"
+  },
+  {
+    "label": "Insurance Administration and Management",
+    "link": "/search/fin-tech/insurance-administration-and-management"
+  },
+  {
+    "label": "Claims Processing",
+    "link": "/search/fin-tech/claims-processing"
+  },
+  {
+    "label": "Forex Exchange and Trading",
+    "link": "/search/fin-tech/forex-exchange-and-trading"
+  },
+  {
+    "label": "Treasury Management",
+    "link": "/search/fin-tech/treasury-management"
+  },
+  {
+    "label": "MS Exchange Server Hosting",
+    "link": "/search/email-hosting-and-tools/ms-exchange-server-hosting"
+  },
+  {
+    "label": "Email Spam Protection",
+    "link": "/search/email-hosting-and-tools/email-spam-protection"
+  },
+  {
+    "label": "Email Scheduling",
+    "link": "/search/email-hosting-and-tools/email-scheduling"
+  },
+  {
+    "label": "Email Signatures",
+    "link": "/search/email-hosting-and-tools/email-signatures"
+  },
+  {
+    "label": "Temporary Email Service Providers",
+    "link": "/search/email-hosting-and-tools/temporary-email-service-providers"
+  },
+  {
+    "label": "Email Converter",
+    "link": "/search/email-hosting-and-tools/email-converter-1"
+  },
+  {
+    "label": "Email Repair and Recovery",
+    "link": "/search/email-hosting-and-tools/email-repair-and-recovery"
+  },
+  {
+    "label": "Virtual Mailboxes",
+    "link": "/search/email-hosting-and-tools/virtual-mailboxes"
+  },
+  {
+    "label": "Email Management",
+    "link": "/search/email-hosting-and-tools/email-management"
+  },
+  {
+    "label": "Ecommerce"
+  },
+  {
+    "label": "Ecommerce Platform",
+    "link": "/search/ecommerce/ecommerce-platform"
+  },
+  {
+    "label": "Mobile Commerce Platform",
+    "link": "/search/ecommerce/mobile-commerce-platform"
+  },
+  {
+    "label": "Ecommerce Marketing",
+    "link": "/search/ecommerce/ecommerce-marketing"
+  },
+  {
+    "label": "Ecommerce Analytics",
+    "link": "/search/ecommerce/ecommerce-analytics"
+  },
+  {
+    "label": "Ecommerce API",
+    "link": "/search/ecommerce/ecommerce-api"
+  },
+  {
+    "label": "Marketplace Builder",
+    "link": "/search/ecommerce/marketplace-builder"
+  },
+  {
+    "label": "Shopping Cart Software",
+    "link": "/search/ecommerce/shopping-cart-software"
+  },
+  {
+    "label": "Product Recommendations",
+    "link": "/search/ecommerce/product-recommendations"
+  },
+  {
+    "label": "Product Customization",
+    "link": "/search/ecommerce/product-customization"
+  },
+  {
+    "label": "Shipping and Fulfillment",
+    "link": "/search/ecommerce/shipping-and-fulfillment"
+  },
+  {
+    "label": "Order Management",
+    "link": "/search/ecommerce/order-management"
+  },
+  {
+    "label": "Product Information Management (PIM)",
+    "link": "/search/ecommerce/product-information-management-pim"
+  },
+  {
+    "label": "Catalog Management",
+    "link": "/search/ecommerce/catalog-management"
+  },
+  {
+    "label": "Social Commerce",
+    "link": "/search/ecommerce/social-commerce"
+  },
+  {
+    "label": "Price Optimization",
+    "link": "/search/ecommerce/price-optimization"
+  },
+  {
+    "label": "Print Fulfillment Services",
+    "link": "/search/ecommerce/print-fulfillment-services"
+  },
+  {
+    "label": "Other Ecommerce",
+    "link": "/search/ecommerce/other-ecommerce"
+  },
+  {
+    "label": "Operations"
+  },
+  {
+    "label": "Fleet Management and Logistics",
+    "link": "/search/operations/fleet-management-and-logistics"
+  },
+  {
+    "label": "Inventory Management",
+    "link": "/search/operations/inventory-management"
+  },
+  {
+    "label": "Warehouse Management System",
+    "link": "/search/operations/warehouse-management-system"
+  },
+  {
+    "label": "Partner Management",
+    "link": "/search/operations/partner-management"
+  },
+  {
+    "label": "Supply Chain Management",
+    "link": "/search/operations/supply-chain-management"
+  },
+  {
+    "label": "Demand Planning",
+    "link": "/search/operations/demand-planning"
+  },
+  {
+    "label": "Enterprise Asset Management Software",
+    "link": "/search/operations/enterprise-asset-management-software"
+  },
+  {
+    "label": "Equipment Rental Management",
+    "link": "/search/operations/equipment-rental-management"
+  },
+  {
+    "label": "Facility Management",
+    "link": "/search/operations/facility-management"
+  },
+  {
+    "label": "Computerized Maintenance Management System (CMMS)",
+    "link": "/search/operations/computerized-maintenance-management-system-cmms"
+  },
+  {
+    "label": "Business Continuity Management",
+    "link": "/search/operations/business-continuity-management-1"
+  },
+  {
+    "label": "Outsourced Office Management",
+    "link": "/search/operations/outsourced-office-management"
+  },
+  {
+    "label": "Office Operations and Management",
+    "link": "/search/operations/office-operations-and-management"
+  },
+  {
+    "label": "Visitor Management",
+    "link": "/search/operations/visitor-management"
+  },
+  {
+    "label": "Kiosk Management",
+    "link": "/search/operations/kiosk-management"
+  },
+  {
+    "label": "Productivity and Operations"
+  },
+  {
+    "label": "GTD and Personal Organizers",
+    "link": "/search/productivity/gtd-and-personal-organizers"
+  },
+  {
+    "label": "Digital Signatures",
+    "link": "/search/productivity/digital-signatures"
+  },
+  {
+    "label": "Word Processing",
+    "link": "/search/productivity/word-processing"
+  },
+  {
+    "label": "File Sharing and Backup",
+    "link": "/search/productivity/file-sharing-and-backup"
+  },
+  {
+    "label": "Virtual Data Room",
+    "link": "/search/productivity/virtual-data-room"
+  },
+  {
+    "label": "Web Clipping and Bookmarking",
+    "link": "/search/productivity/web-clipping-and-bookmarking"
+  },
+  {
+    "label": "Proofreading Software",
+    "link": "/search/productivity/proofreading-software"
+  },
+  {
+    "label": "Web Scraping and Crawling",
+    "link": "/search/productivity/web-scraping-and-crawling"
+  },
+  {
+    "label": "Board Meeting Management",
+    "link": "/search/productivity/board-meeting-management"
+  },
+  {
+    "label": "Meeting Management",
+    "link": "/search/productivity/meeting-management"
+  },
+  {
+    "label": "Appointment Scheduling",
+    "link": "/search/productivity/appointment-scheduling"
+  },
+  {
+    "label": "Flow Charts and Diagrams",
+    "link": "/search/productivity/flow-charts-and-diagrams"
+  },
+  {
+    "label": "Barcode and QR Code",
+    "link": "/search/productivity/barcode-and-qr-code"
+  },
+  {
+    "label": "Document Converter",
+    "link": "/search/productivity/document-converter"
+  },
+  {
+    "label": "PDF Readers and Editors",
+    "link": "/search/productivity/pdf-readers-and-editors"
+  },
+  {
+    "label": "Workflow Automation",
+    "link": "/search/productivity/workflow-automation"
+  },
+  {
+    "label": "Secure Document Sharing",
+    "link": "/search/productivity/secure-document-sharing"
+  },
+  {
+    "label": "Virtual Assistant",
+    "link": "/search/productivity/virtual-assistant"
+  },
+  {
+    "label": "Website Screenshots",
+    "link": "/search/productivity/website-screenshots"
+  },
+  {
+    "label": "Other Productivity Tools",
+    "link": "/search/productivity/other-productivity-tools"
+  },
+  {
+    "label": "Communications",
+    "link": "/search/communications"
+  },
+  {
+    "label": "Web and Video Conferencing",
+    "link": "/search/communications/web-and-video-conferencing"
+  },
+  {
+    "label": "Webinars and Webcasts",
+    "link": "/search/communications/webinars-and-webcasts"
+  },
+  {
+    "label": "Audio Conferencing",
+    "link": "/search/communications/audio-conferencing"
+  },
+  {
+    "label": "Mobile Conferencing",
+    "link": "/search/communications/mobile-conferencing"
+  },
+  {
+    "label": "Cloud Business Telephony",
+    "link": "/search/communications/cloud-business-telephony"
+  },
+  {
+    "label": "Interactive voice response (IVR)",
+    "link": "/search/communications/interactive-voice-response-ivr"
+  },
+  {
+    "label": "Business Text Messaging",
+    "link": "/search/communications/business-text-messaging"
+  },
+  {
+    "label": "Emergency Communications",
+    "link": "/search/communications/emergency-communications"
+  },
+  {
+    "label": "Instant Messaging",
+    "link": "/search/communications/instant-messaging"
+  },
+  {
+    "label": "Other Communications",
+    "link": "/search/communications/other-communications"
+  },
+  {
+    "label": "Internal Social Networks",
+    "link": "/search/collaboration/internal-social-networks"
+  },
+  {
+    "label": "Collaborative Workspaces",
+    "link": "/search/collaboration/collaborative-workspaces"
+  },
+  {
+    "label": "Document Collaboration",
+    "link": "/search/collaboration/document-collaboration"
+  },
+  {
+    "label": "Collaborative Whiteboards",
+    "link": "/search/collaboration/collaborative-whiteboards"
+  },
+  {
+    "label": "Team Collaboration",
+    "link": "/search/collaboration/team-collaboration"
+  },
+  {
+    "label": "Corporate Intranets",
+    "link": "/search/collaboration/corporate-intranets"
+  },
+  {
+    "label": "Wikis and Discussion Spaces",
+    "link": "/search/collaboration/wikis-and-discussion-spaces"
+  },
+  {
+    "label": "BPM and Workflow",
+    "link": "/search/bpm-and-workflow"
+  },
+  {
+    "label": "Healthcare Tech",
+    "link": "/search/healthcare-tech"
+  },
+  {
+    "label": "Hospital Management",
+    "link": "/search/healthcare-tech/hospital-management"
+  },
+  {
+    "label": "Medical Practice Management",
+    "link": "/search/healthcare-tech/medical-practice-management"
+  },
+  {
+    "label": "Electronic Health Records (EHR)",
+    "link": "/search/healthcare-tech/electronic-health-records-ehr"
+  },
+  {
+    "label": "Medical Appointment Scheduling",
+    "link": "/search/healthcare-tech/medical-appointment-scheduling"
+  },
+  {
+    "label": "Medical Inventory Management",
+    "link": "/search/healthcare-tech/medical-inventory-management"
+  },
+  {
+    "label": "Patient Portal and Communication",
+    "link": "/search/healthcare-tech/patient-portal-and-communication"
+  },
+  {
+    "label": "Assisted Living Software",
+    "link": "/search/healthcare-tech/assisted-living-software"
+  },
+  {
+    "label": "Home Health Care",
+    "link": "/search/healthcare-tech/home-health-care"
+  },
+  {
+    "label": "Pharmacy Software",
+    "link": "/search/healthcare-tech/pharmacy-software"
+  },
+  {
+    "label": "Radiology Software",
+    "link": "/search/healthcare-tech/radiology-software"
+  },
+  {
+    "label": "Chiropractic Software",
+    "link": "/search/healthcare-tech/chiropractic-software"
+  },
+  {
+    "label": "Physical Therapy Software",
+    "link": "/search/healthcare-tech/physical-therapy-software"
+  },
+  {
+    "label": "Optometry Software",
+    "link": "/search/healthcare-tech/optometry-software"
+  },
+  {
+    "label": "Occupational Therapy",
+    "link": "/search/healthcare-tech/occupational-therapy"
+  },
+  {
+    "label": "Dental Software",
+    "link": "/search/healthcare-tech/dental-software"
+  },
+  {
+    "label": "Medical Credentialing",
+    "link": "/search/healthcare-tech/medical-credentialing"
+  },
+  {
+    "label": "HIPAA Compliance Management",
+    "link": "/search/healthcare-tech/hipaa-compliance-management"
+  },
+  {
+    "label": "Fitness App SDKs and APIs",
+    "link": "/search/healthcare-tech/fitness-app-sdks-and-apis"
+  },
+  {
+    "label": "Other Healthcare Tech",
+    "link": "/search/healthcare-tech/other-healthcare-tech"
+  },
+  {
+    "label": "Student Information System (SIS)",
+    "link": "/search/education-tech/student-information-system-sis"
+  },
+  {
+    "label": "School Management",
+    "link": "/search/education-tech/school-management"
+  },
+  {
+    "label": "Classroom Management",
+    "link": "/search/education-tech/classroom-management"
+  },
+  {
+    "label": "Library Management",
+    "link": "/search/education-tech/library-management"
+  },
+  {
+    "label": "Digital Assessments and Tests",
+    "link": "/search/education-tech/digital-assessments-and-tests"
+  },
+  {
+    "label": "Learning Management System (LMS)",
+    "link": "/search/education-tech/learning-management-system-lms"
+  },
+  {
+    "label": "Course Authoring Tools",
+    "link": "/search/education-tech/course-authoring-tools"
+  },
+  {
+    "label": "Reference Management",
+    "link": "/search/education-tech/reference-management"
+  },
+  {
+    "label": "Child Care and Daycare Management",
+    "link": "/search/education-tech/child-care-and-daycare-management"
+  },
+  {
+    "label": "Tuition and Coaching Class Management",
+    "link": "/search/education-tech/tuition-and-coaching-class-management"
+  },
+  {
+    "label": "Special Education Software",
+    "link": "/search/education-tech/special-education-software"
+  },
+  {
+    "label": "Scholarship Management System",
+    "link": "/search/education-tech/scholarship-management-system"
+  },
+  {
+    "label": "Alumni Management",
+    "link": "/search/education-tech/alumni-management"
+  },
+  {
+    "label": "Other Education Tech",
+    "link": "/search/education-tech/other-education-tech"
+  },
+  {
+    "label": "Legal Practice Management",
+    "link": "/search/legal/legal-practice-management"
+  },
+  {
+    "label": "Legal Case Management",
+    "link": "/search/legal/legal-case-management"
+  },
+  {
+    "label": "Court Management",
+    "link": "/search/legal/court-management"
+  },
+  {
+    "label": "Legal Document Management",
+    "link": "/search/legal/legal-document-management"
+  },
+  {
+    "label": "Copyrights, Patents and IP Services",
+    "link": "/search/legal/copyrights-patents-and-ip-services"
+  },
+  {
+    "label": "Immigration Services",
+    "link": "/search/legal/immigration-services"
+  },
+  {
+    "label": "Real Estate and Construction",
+    "link": "/search/real-estate-and-construction"
+  },
+  {
+    "label": "Real Estate Marketing",
+    "link": "/search/real-estate-and-construction/real-estate-marketing"
+  },
+  {
+    "label": "Real Estate CRM",
+    "link": "/search/real-estate-and-construction/real-estate-crm"
+  },
+  {
+    "label": "Construction CRM",
+    "link": "/search/real-estate-and-construction/construction-crm"
+  },
+  {
+    "label": "Real Estate Listing Management",
+    "link": "/search/real-estate-and-construction/real-estate-listing-management"
+  },
+  {
+    "label": "Property Management",
+    "link": "/search/real-estate-and-construction/property-management"
+  },
+  {
+    "label": "Property Inspection",
+    "link": "/search/real-estate-and-construction/property-inspection"
+  },
+  {
+    "label": "Real Estate Transaction Management",
+    "link": "/search/real-estate-and-construction/real-estate-transaction-management"
+  },
+  {
+    "label": "Real Estate Agency",
+    "link": "/search/real-estate-and-construction/real-estate-agency"
+  },
+  {
+    "label": "Lease Administration",
+    "link": "/search/real-estate-and-construction/lease-administration"
+  },
+  {
+    "label": "Construction Management",
+    "link": "/search/real-estate-and-construction/construction-management"
+  },
+  {
+    "label": "Construction Bid Management",
+    "link": "/search/real-estate-and-construction/construction-bid-management"
+  },
+  {
+    "label": "Construction Estimating Software",
+    "link": "/search/real-estate-and-construction/construction-estimating-software"
+  },
+  {
+    "label": "Construction Accounting and Job Costing",
+    "link": "/search/real-estate-and-construction/construction-accounting-and-job-costing"
+  },
+  {
+    "label": "BIM and Architectural Design Software",
+    "link": "/search/real-estate-and-construction/bim-and-architectural-design-software"
+  },
+  {
+    "label": "Short-Term Commercial Space Marketplace",
+    "link": "/search/real-estate-and-construction/short-term-commercial-space-marketplace"
+  },
+  {
+    "label": "Other Real Estate and Construction Tools",
+    "link": "/search/real-estate-and-construction/other-real-estate-and-construction-tools"
+  },
+  {
+    "label": "Automobile Tech",
+    "link": "/search/automobile-tech"
+  },
+  {
+    "label": "Automobile Dealership Management",
+    "link": "/search/automobile-tech/automobile-dealership-management"
+  },
+  {
+    "label": "Automobile Repair and Maintenance Software",
+    "link": "/search/automobile-tech/automobile-repair-and-maintenance-software"
+  },
+  {
+    "label": "Towing and Roadside Assistance Software",
+    "link": "/search/automobile-tech/towing-and-roadside-assistance-software"
+  },
+  {
+    "label": "Vehicle Rental Software",
+    "link": "/search/automobile-tech/vehicle-rental-software"
+  },
+  {
+    "label": "Other Automobile Tech",
+    "link": "/search/automobile-tech/other-automobile-tech"
+  },
+  {
+    "label": "Laboratory Information Management System (LIMS)",
+    "link": "/search/bio-tech/laboratory-information-management-system-lims"
+  },
+  {
+    "label": "Clinical Trial Management System (CTMS)",
+    "link": "/search/bio-tech/clinical-trial-management-system-ctms"
+  },
+  {
+    "label": "Electronic Data Capture",
+    "link": "/search/bio-tech/electronic-data-capture"
+  },
+  {
+    "label": "Nonprofit Accounting",
+    "link": "/search/nonprofit/nonprofit-accounting"
+  },
+  {
+    "label": "Fundraising and Donation Management",
+    "link": "/search/nonprofit/fundraising-and-donation-management"
+  },
+  {
+    "label": "Volunteer Management",
+    "link": "/search/nonprofit/volunteer-management"
+  },
+  {
+    "label": "Grant Management",
+    "link": "/search/nonprofit/grant-management"
+  },
+  {
+    "label": "Other Nonprofit Tools",
+    "link": "/search/nonprofit/other-nonprofit-tools"
+  },
+  {
+    "label": "Restaurant and Hospitality",
+    "link": "/search/restaurant-and-hospitality"
+  },
+  {
+    "label": "Hotel Management Software",
+    "link": "/search/restaurant-and-hospitality/hotel-management-software"
+  },
+  {
+    "label": "Hotel Reservation Software",
+    "link": "/search/restaurant-and-hospitality/hotel-reservation-software"
+  },
+  {
+    "label": "Restaurant Management Software",
+    "link": "/search/restaurant-and-hospitality/restaurant-management-software"
+  },
+  {
+    "label": "Restaurant Reservation Software",
+    "link": "/search/restaurant-and-hospitality/restaurant-reservation-software"
+  },
+  {
+    "label": "Food Ordering and Delivery Management",
+    "link": "/search/restaurant-and-hospitality/food-ordering-and-delivery-management"
+  },
+  {
+    "label": "Catering Software",
+    "link": "/search/restaurant-and-hospitality/catering-software"
+  },
+  {
+    "label": "Other Restaurant and Hospitality Tools",
+    "link": "/search/restaurant-and-hospitality/other-restaurant-and-hospitality-tools"
+  },
+  {
+    "label": "Tours, Travel and Activities",
+    "link": "/search/tours-travel-and-activities"
+  },
+  {
+    "label": "Tour Management Software",
+    "link": "/search/tours-travel-and-activities/tour-management-software"
+  },
+  {
+    "label": "Travel Agency Management",
+    "link": "/search/tours-travel-and-activities/travel-agency-management"
+  },
+  {
+    "label": "Vacation Rental Software",
+    "link": "/search/tours-travel-and-activities/vacation-rental-software"
+  },
+  {
+    "label": "Camp Management Software",
+    "link": "/search/tours-travel-and-activities/camp-management-software"
+  },
+  {
+    "label": "Other Tours, Travel and Activity Tools",
+    "link": "/search/tours-travel-and-activities/other-tours-travel-and-activity-tools"
+  },
+  {
+    "label": "Vertical Software",
+    "link": "/search/vertical-software"
+  },
+  {
+    "label": "Software Reviews",
+    "link": "/search/vertical-software/software-reviews"
+  },
+  {
+    "label": "Product Lifecycle Management (PLM)",
+    "link": "/search/vertical-software/product-lifecycle-management-plm"
+  },
+  {
+    "label": "Computer-Aided Engineering (CAE)",
+    "link": "/search/vertical-software/computer-aided-engineering-cae"
+  },
+  {
+    "label": "Calibration Management",
+    "link": "/search/vertical-software/calibration-management"
+  },
+  {
+    "label": "Airline Maintenance and Engineering",
+    "link": "/search/vertical-software/airline-maintenance-and-engineering"
+  },
+  {
+    "label": "Law Enforcement and Public Safety",
+    "link": "/search/vertical-software/law-enforcement-and-public-safety"
+  },
+  {
+    "label": "Political Campaign Software",
+    "link": "/search/vertical-software/political-campaign-software"
+  },
+  {
+    "label": "Quality Management",
+    "link": "/search/vertical-software/quality-management"
+  },
+  {
+    "label": "Environmental Management",
+    "link": "/search/vertical-software/environmental-management"
+  },
+  {
+    "label": "Crop and Farm Management",
+    "link": "/search/vertical-software/crop-and-farm-management"
+  },
+  {
+    "label": "Vineyard and Winery Management",
+    "link": "/search/vertical-software/vineyard-and-winery-management"
+  },
+  {
+    "label": "Livestock Management",
+    "link": "/search/vertical-software/livestock-management"
+  },
+  {
+    "label": "Veterinary Software",
+    "link": "/search/vertical-software/veterinary-software"
+  },
+  {
+    "label": "Pet Boarding Software",
+    "link": "/search/vertical-software/pet-boarding-software"
+  },
+  {
+    "label": "Church Management",
+    "link": "/search/vertical-software/church-management"
+  },
+  {
+    "label": "Funeral and Mortuary Management",
+    "link": "/search/vertical-software/funeral-and-mortuary-management"
+  },
+  {
+    "label": "Auction Software",
+    "link": "/search/vertical-software/auction-software"
+  },
+  {
+    "label": "Museum and Collections Management",
+    "link": "/search/vertical-software/museum-and-collections-management"
+  },
+  {
+    "label": "Pawn Shop and Pawn Broking",
+    "link": "/search/vertical-software/pawn-shop-and-pawn-broking"
+  },
+  {
+    "label": "Parks and Recreation Management Software",
+    "link": "/search/vertical-software/parks-and-recreation-management-software"
+  },
+  {
+    "label": "Queue Management",
+    "link": "/search/vertical-software/queue-management"
+  },
+  {
+    "label": "Harbor and Marina Management",
+    "link": "/search/vertical-software/harbor-and-marina-management"
+  },
+  {
+    "label": "Parking Management",
+    "link": "/search/vertical-software/parking-management"
+  },
+  {
+    "label": "Laundromat Management Software",
+    "link": "/search/vertical-software/laundromat-management-software"
+  },
+  {
+    "label": "Electronic Repair Shop Management",
+    "link": "/search/vertical-software/electronic-repair-shop-management"
+  },
+  {
+    "label": "Photography Studio Management",
+    "link": "/search/vertical-software/photography-studio-management"
+  },
+  {
+    "label": "Courier and Dispatch Management",
+    "link": "/search/vertical-software/courier-and-dispatch-management"
+  },
+  {
+    "label": "Moving and Storage",
+    "link": "/search/vertical-software/moving-and-storage"
+  },
+  {
+    "label": "Gym and Fitness Studio Management",
+    "link": "/search/vertical-software/gym-and-fitness-studio-management"
+  },
+  {
+    "label": "Music School Management",
+    "link": "/search/vertical-software/music-school-management"
+  },
+  {
+    "label": "Spa and Salon Management",
+    "link": "/search/vertical-software/spa-and-salon-management"
+  },
+  {
+    "label": "Massage Therapy",
+    "link": "/search/vertical-software/massage-therapy"
+  },
+  {
+    "label": "Bakery Software",
+    "link": "/search/vertical-software/bakery-software"
+  },
+  {
+    "label": "Pest Control Management",
+    "link": "/search/vertical-software/pest-control-management"
+  },
+  {
+    "label": "Waste Management",
+    "link": "/search/vertical-software/waste-management"
+  },
+  {
+    "label": "Cleaning and Janitorial Service Management",
+    "link": "/search/vertical-software/cleaning-and-janitorial-service-management"
+  },
+  {
+    "label": "Franchise Management",
+    "link": "/search/vertical-software/franchise-management"
+  },
+  {
+    "label": "Fashion Design and Development",
+    "link": "/search/vertical-software/fashion-design-and-development"
+  },
+  {
+    "label": "Other B2B Software",
+    "link": "/search/vertical-software/other-b2b-software"
+  },
+  {
+    "label": "Other Vertical Tech",
+    "link": "/search/vertical-software/other-vertical-tech"
+  },
+  {
+    "label": "Telecom Vertical Software",
+    "link": "/search/vertical-software/telecom-vertical-software"
+  },
+  {
+    "label": "Energy and Utilities Vertical Software",
+    "link": "/search/vertical-software/energy-and-utilities-vertical-software"
+  },
+  {
+    "label": "Legal Vertical Software",
+    "link": "/search/vertical-software/legal-vertical-software"
+  },
+  {
+    "label": "Sports Vertical Tech",
+    "link": "/search/vertical-software/sports-vertical-tech"
+  },
+  {
+    "label": "Entertainment Vertical Software",
+    "link": "/search/vertical-software/entertainment-vertical-software"
+  },
+  {
+    "label": "Manufacturing Vertical Software",
+    "link": "/search/vertical-software/manufacturing-vertical-software"
+  },
+  {
+    "label": "Oil and Gas Vertical",
+    "link": "/search/vertical-software/oil-and-gas-vertical"
+  },
+  {
+    "label": "Geology and Mining Vertical",
+    "link": "/search/vertical-software/geology-and-mining-vertical"
+  },
+  {
+    "label": "Forestry and Lumber Industry Vertic",
+    "link": "/search/vertical-software/forestry-and-lumber-industry-vertical"
+  }
+]

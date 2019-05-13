@@ -32,7 +32,7 @@ const list = [
   },
 ];
 const InfoList = ({}) => (
-  <div className="cell medium-8 grid-x grid-margin-x grid--info-list">
+  <div className="grid-x grid--info-list container">
     {list.map((info, key) => (
       <Info {...info} key={key} isLongText={info.label === 'Description'} />
     ))}

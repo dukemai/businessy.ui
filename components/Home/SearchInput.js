@@ -19,7 +19,7 @@ const SearchInput = ({}) => {
   return (
     <div className="grid-x align-center grid--search">
       <div className="medium-6 cell">
-        <div className=" input-group">
+        <div className="input-group">
           <input
             type="text"
             onChange={onQueryChange}

@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
-const Info = ({ label }) => (
+const Info = ({ label, content }) => (
   <>
     <div className="cell medium-4">
-      <p className="h6 text-right text--profile-label">{label}</p>
+      <p className="h6 text--profile-label">{label}</p>
     </div>
     <div className="cell medium-8">
-      <p>Info Content</p>
+      <p>{content}</p>
     </div>
   </>
 );

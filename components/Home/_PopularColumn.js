@@ -7,7 +7,7 @@ const PopularColumn = ({ items = [], title }) => (
     <p className="h5 text-center text--popular-title">{title}</p>
     {items.map(item => (
       <div key={item} className="text-center">
-        <a href="#">{item}</a>
+        <a href="/company">{item}</a>
       </div>
     ))}
   </div>

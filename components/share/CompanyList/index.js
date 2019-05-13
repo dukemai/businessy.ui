@@ -6,8 +6,8 @@ import Company from './_Company';
 const propTypes = {};
 const defaultProps = {};
 const companies = [...new Array(5).keys()];
-const CompanyList = ({ title, question, answer }) => (
-  <section>
+const CompanyList = ({ title, question, answer, onMove }) => (
+  <section className="container">
     <p>{title}</p>
     <div className="grid-x">
       <div className="cell medium-6">
@@ -17,7 +17,7 @@ const CompanyList = ({ title, question, answer }) => (
         <a href="#">+4856 more</a>
       </div>
       <div className="cell medium-6">
-        <Question question={question} answer={answer} />
+        <Question onClick={onMove} question={question} answer={answer} />
       </div>
     </div>
   </section>

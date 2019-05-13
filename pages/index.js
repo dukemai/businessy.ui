@@ -6,7 +6,6 @@ import Banner from '../components/Home/Banner';
 import Explore from '../components/share/Explore';
 import SearchInput from '../components/Home/SearchInput';
 import PopularList from '../components/Home/PopularList';
-import Footer from '../components/Home/Footer';
 import AppContext from '../AppContext';
 
 const onStartClicked = () => Router.push('/signin');
@@ -22,7 +21,6 @@ export default function Index() {
       </section>
       <PopularList />
       <Explore isAuthenticated={Boolean(state.user)} onStartClicked={onStartClicked} />
-      <Footer />
     </Layout>
   );
 }

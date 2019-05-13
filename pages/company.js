@@ -2,10 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Layout from '../components/Layout';
-import Title from '../components/Company/Title';
+import Title from '../components/share/CompanyTitle';
+import CompanyList from '../components/share/CompanyList';
 import InfoList from '../components/Company/InfoList';
-import Tags from '../components/Company/Tags';
-import CompanyList from '../components/Company/CompanyList';
 
 const propTypes = {};
 const defaultProps = {};
@@ -14,7 +13,6 @@ const Company = ({}) => (
     <Title />
     <section className="grid-x grid-padding-x">
       <div className="cell">
-        <Tags />
         <CompanyList
           title="Business customers"
           question="Is your business a customer?"

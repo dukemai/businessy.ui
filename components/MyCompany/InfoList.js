@@ -8,31 +8,28 @@ const defaultProps = {};
 const list = [
   {
     label: 'Business',
+    content:
+      'Comprehensive data and information service tracking Nordic tech investments in Sweden, Denmark, Norway, Finland and Iceland.',
   },
   {
     label: 'Website',
+    content: 'http://www.swedish.tech',
   },
   {
     label: 'Location',
-  },
-  {
-    label: 'Industries',
-  },
-  {
-    label: 'Description',
+    content: 'Stockholm, Sweden',
   },
   {
     label: 'Linkedin',
+    content: 'www.linkedin.com/company/swedishtech',
   },
 ];
 const InfoList = ({}) => (
-  <section className="grid-x align-center">
-    <div className="cell medium-8 grid-x grid-margin-x cell--bordered callout">
-      {list.map((info, key) => (
-        <Info {...info} key={key} />
-      ))}
-    </div>
-  </section>
+  <div className="container">
+    {list.map((info, key) => (
+      <Info {...info} key={key} />
+    ))}
+  </div>
 );
 InfoList.propTypes = propTypes;
 InfoList.defaultProps = defaultProps;

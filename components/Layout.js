@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Router from 'next/router';
 
 import Header from './Header';
+import SimpleFooter from './Footer';
+
 import './styles.styl';
 
 const onSignUpClicked = () => Router.push('/signin');
@@ -17,10 +19,10 @@ const Layout = props => (
         crossOrigin="anonymous"
       />
       <link
-      rel="stylesheet"
-      href="/static/fonts/foundation-icons/foundation-icons.css"
-      crossOrigin="anonymous"
-    />
+        rel="stylesheet"
+        href="/static/fonts/foundation-icons/foundation-icons.css"
+        crossOrigin="anonymous"
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Businessy application" />
     </Head>
@@ -31,6 +33,7 @@ const Layout = props => (
         hideSearchBar={props.hideSearchBar}
       />
       <section className="align-center">{props.children}</section>
+      <SimpleFooter />
     </section>
   </>
 );

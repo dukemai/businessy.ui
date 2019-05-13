@@ -8,7 +8,7 @@ const propTypes = {};
 const defaultProps = {};
 const companies = [''];
 const ResultItem = ({ onClick }) => (
-  <div className="cell callout">
+  <div className="cell callout container">
     <h5>
       <Link href="/company">
         <a> Nordic Tech List</a>

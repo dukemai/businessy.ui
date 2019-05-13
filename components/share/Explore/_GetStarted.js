@@ -4,7 +4,7 @@ const propTypes = {};
 const defaultProps = {};
 const GetStarted = ({ onStartClicked }) => (
   <div className="input-group-button">
-    <button onClick={onStartClicked} className="button">Get Started</button>
+    <button onClick={onStartClicked} className="button">Sign up</button>
   </div>
 );
 GetStarted.propTypes = propTypes;

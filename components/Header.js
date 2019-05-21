@@ -46,7 +46,7 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
   });
   const state = useContext(AppContext);
   const isAuthenticated = Boolean(state.user);
-  const onSignOutClicked = () => state.setUser(null);
+  const onSignOutClicked = () => state.signOut();
   const onSearchClicked = () => Router.push('/search');
 
   const renderRightMenu = () => (
@@ -89,8 +89,8 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
     </div>
   );
   return (
-    <>
-      <header className="top-bar show-for-medium top-bar--main">
+    <section className="container--top-bar">
+      <header className="container top-bar show-for-medium top-bar--main">
         <div className="top-bar-left">
           <ul className="menu">
             <li className="menu-text">
@@ -147,7 +147,7 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
           )}
         </ul>
       </div>
-    </>
+    </section>
   );
 };
 

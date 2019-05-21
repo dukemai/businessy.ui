@@ -3,6 +3,7 @@ import Router from 'next/router';
 
 import Header from './Header';
 import SimpleFooter from './Footer';
+import Alert from './share/Alert';
 
 import './styles.styl';
 
@@ -26,15 +27,16 @@ const Layout = props => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Businessy application" />
     </Head>
-    <section>
+    <section className="flex-container flex-dir-column container--main">
       <Header
         onSignUpClicked={onSignUpClicked}
         onLogoClicked={onLogoClicked}
         hideSearchBar={props.hideSearchBar}
       />
-      <section className="align-center">{props.children}</section>
+      <section className="align-center flex-child-grow">{props.children}</section>
       <SimpleFooter />
     </section>
+    <Alert />
   </>
 );
 

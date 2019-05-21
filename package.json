@@ -23,6 +23,7 @@
   "homepage": "https://github.com/dukemai/businessy.ui#readme",
   "dependencies": {
     "@zeit/next-stylus": "^1.0.1",
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "express": "^4.16.4",
     "js-cookie": "^2.2.0",

@@ -12,11 +12,15 @@ class MyApp extends App {
     Cookies.set('user', user);
     this.setState({ user });
   };
+  signOut = () => {
+    Cookies.set('user', null);
+    this.setState({ user: null });
+  }
 
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <AppContext.Provider value={{ ...this.state, setUser: this.setUser }}>
+      <AppContext.Provider value={{ ...this.state, setUser: this.setUser, signOut: this.signOut }}>
         <Component {...pageProps} />
       </AppContext.Provider>
     );

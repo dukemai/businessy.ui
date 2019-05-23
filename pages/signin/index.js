@@ -7,6 +7,7 @@ import EnterText from '../../components/SignIn/EnterText';
 import EmailInput from '../../components/SignIn/EmailInput';
 import GetStarted from '../../components/SignIn/GetStarted';
 import SignInContext from '../../SignInContext';
+
 import { apiPOST } from '../../api';
 import { COOKIES } from '../../constants';
 
@@ -14,17 +15,18 @@ const propTypes = {};
 const defaultProps = {};
 
 const SignUp = ({}) => {
-  const [email, setEmail] = useState('duc.mai@niteco.se');
+  const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
   const redirectToConfirm = async () => {
     setIsLoading(true);
     try {
-      const response = await apiPOST('/login/authenticate')({
+      const { data } = await apiPOST('/login/authenticate')({
         params: { email },
       });
-      Cookies.set(COOKIES.EMAIL, email);
 
+      Cookies.set(COOKIES.EMAIL, email);
+      Cookies.set(COOKIES.CODE, data);
       Router.push('/signin/confirm');
     } catch (error) {
       console.log(error);

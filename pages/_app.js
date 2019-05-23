@@ -13,7 +13,7 @@ class MyApp extends App {
     this.setState({ user });
   };
   signOut = () => {
-    Cookies.set('user', null);
+    Cookies.remove('user');
     this.setState({ user: null });
   }
 

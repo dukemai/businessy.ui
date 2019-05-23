@@ -4,13 +4,13 @@ import classnames from 'classnames';
 
 const propTypes = {};
 const defaultProps = {};
-const Info = ({ label, content, isLongText }) => (
+const Info = ({ label, content, isLongText, isLink }) => (
   <>
     <div className={classnames('cell', { 'medium-4': !isLongText })}>
       <p className="h6 text--profile-label">{label}</p>
     </div>
     <div className={classnames('cell', { 'medium-8': !isLongText })}>
-      <p>{content}</p>
+      <p>{isLink ? <a href={`//${content}`}>{content}</a> : content}</p>
     </div>
   </>
 );

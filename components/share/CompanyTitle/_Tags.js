@@ -4,11 +4,10 @@ import Tag from './_Tag';
 
 const propTypes = {};
 const defaultProps = {};
-const tags = [...new Array(4).keys()];
-const Tags = ({}) => (
-  <section className="section--tags">
+const Tags = ({ tags = []}) => (
+  <section className="section--tags flex-container">
     {tags.map(tag => (
-      <Tag key={tag} />
+      <Tag content={tag} key={tag} />
     ))}
   </section>
 );

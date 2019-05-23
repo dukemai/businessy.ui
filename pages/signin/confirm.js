@@ -1,26 +1,17 @@
 import React, { useState, useContext } from 'react';
 import Router from 'next/router';
+import Cookies from 'js-cookie';
 
 import Layout from '../../components/Layout';
 import EnterCode from '../../components/SignIn/EnterCode';
 import AppContext from '../../AppContext';
 import SignInContext from '../../SignInContext';
-import { apiPOST } from '../../api';
+import { COOKIES } from '../../constants';
 
 const Confirm = ({}) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [code, setCode] = useState('abc');
+  const [code, setCode] = useState(Cookies.get(COOKIES.CODE));
   const state = useContext(AppContext);
-
-  const onConfirmClicked = async () => {
-    try {
-      await apiPOST('/login/confirm')({ params: { key: code } });
-      state.setUser({});
-      Router.push('/');
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <Layout>
@@ -36,7 +27,7 @@ const Confirm = ({}) => {
               finding the right CRM software for your business.
             </p>
           </div>
-          <EnterCode onConfirmClicked={onConfirmClicked} />
+          <EnterCode />
         </section>
       </SignInContext.Provider>
     </Layout>

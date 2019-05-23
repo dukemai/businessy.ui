@@ -1,43 +1,49 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 
 import Info from './Info';
+import CompanyContext from '../../CompanyContext';
 
 const propTypes = {};
 const defaultProps = {};
-const list = [
-  {
-    label: 'Description',
-    content:
-      'Comprehensive data and information service tracking Nordic tech investments in Sweden, Denmark, Norway, Finland and Iceland.',
-  },
-  {
-    label: 'Website',
-    content: 'https://www.nordictechlist.com/',
-  },
-  {
-    label: 'SaaS and industry',
-    content: 'Information Technology',
-  },
-  {
-    label: 'Location',
-    content: 'Sweden',
-  },
-  {
-    label: 'Revenue',
-  },
-  {
-    label: 'Linkedin',
-    content: 'company/nordic-tech-list',
-  },
-];
-const InfoList = ({}) => (
-  <div className="grid-x grid--info-list container">
-    {list.map((info, key) => (
-      <Info {...info} key={key} isLongText={info.label === 'Description'} />
-    ))}
-  </div>
-);
+
+const InfoList = ({ domain }) => {
+  const { company } = useContext(CompanyContext);
+  const list = [
+    {
+      label: 'Description',
+      content: company.description,
+    },
+    {
+      label: 'Website',
+      content: domain || (company.domainAliases || []).join(', '),
+    },
+    {
+      label: 'SaaS and industry',
+      content: 'Information Technology',
+    },
+    {
+      label: 'Location',
+      content: company.location,
+    },
+    {
+      label: 'Linkedin',
+      content: company.linkedIn,
+    },
+  ];
+  return (
+    <div className="grid-x grid--info-list container">
+      {list.map((info, key) => (
+        <Info
+          {...info}
+          key={key}
+          isLongText={info.label === 'Description'}
+          isLink={info.label === 'Website'}
+        />
+      ))}
+    </div>
+  );
+};
 InfoList.propTypes = propTypes;
 InfoList.defaultProps = defaultProps;
 export default InfoList;

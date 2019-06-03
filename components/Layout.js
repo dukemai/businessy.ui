@@ -5,26 +5,12 @@ import Router from 'next/router';
 import Header from './Header';
 import SimpleFooter from './Footer';
 import Alert from './share/Alert';
-import ErrorContext from '../ErrorContext';
 
 import './styles.styl';
 
 const onSignUpClicked = () => Router.push('/signin');
 const onLogoClicked = () => Router.push('/');
 const Layout = props => {
-  const [showError, setShowError] = useState(false);
-  const [error, setError] = useState(null);
-  const [errorTitle, setErrorTitle] = useState('');
-  const setErrorPanel = error => {
-    setShowError(true);
-    setError(error);
-    setErrorTitle('REQUEST FAILED');
-  };
-  const hideErrorPanel = () => {
-    setShowError(false);
-    setError(null);
-    setErrorTitle('');
-  };
   return (
     <>
       <Head>
@@ -49,20 +35,11 @@ const Layout = props => {
           onLogoClicked={onLogoClicked}
           hideSearchBar={props.hideSearchBar}
         />
-        <ErrorContext.Provider
-          value={{
-            error,
-            errorTitle,
-            showError,
-            setErrorPanel,
-            hideErrorPanel,
-          }}
-        >
+       
           <section className="align-center flex-child-grow">
             {props.children}
           </section>
           <Alert />
-        </ErrorContext.Provider>
         <SimpleFooter />
       </section>
     </>

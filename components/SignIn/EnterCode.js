@@ -1,24 +1,28 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import Router from 'next/router';
+import Cookies from 'js-cookie';
 
 import SignInContext from '../../SignInContext';
 import ErrorContext from '../../ErrorContext';
 
 import { apiPOST } from '../../api';
 import AppContext from '../../AppContext';
+import { COOKIES } from '../../constants';
 
 const propTypes = {};
 const defaultProps = {};
 const EnterCode = () => {
   const { code, setCode, email } = useContext(SignInContext);
-  const { setErrorPanel } = useContext(ErrorContext);
+  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
   const { setUser } = useContext(AppContext);
 
   const onCodeChanged = e => setCode(e.target.value);
   const onConfirmClicked = async () => {
+    hideErrorPanel();
     try {
       await apiPOST('/login/confirm')({ params: { key: code } });
+      Cookies.remove(COOKIES.CODE);
       setUser({
         email,
       });

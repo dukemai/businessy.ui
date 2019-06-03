@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Router from 'next/router';
+import { getOr } from 'lodash/fp';
 
 import Layout from '../components/Layout';
 import ResultText from '../components/Search/ResultText';
 import ResultItem from '../components/Search/ResultItem';
 import Explore from '../components/share/Explore';
+import AppContext from '../AppContext';
+import ErrorContext from '../ErrorContext';
 
-const results = [...new Array(10).keys()];
+import { apiGET } from '../api';
 
 const onSearchItemClick = e => {
   Router.push('/company');
@@ -15,19 +18,47 @@ const onSearchItemClick = e => {
 
 const propTypes = {};
 const defaultProps = {};
-const Search = ({}) => (
-  <Layout>
-    <section className="grid-x grid-padding-x">
-      <ResultText />
+const Search = ({}) => {
+  const state = useContext(AppContext);
+  const [companies, setCompanies] = useState([]);
+  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
 
-      <ResultItem onClick={onSearchItemClick} />
-      <Explore className="cell" />
-      {results.map(result => (
-        <ResultItem onClick={onSearchItemClick} key={result} />
-      ))}
-    </section>
-  </Layout>
-);
+  const isAuthenticated = Boolean(state.user);
+  const showExplore = typeof window !== 'undefined' && !isAuthenticated;
+  const query =
+    typeof window === 'undefined' ? '' : getOr('', 'q', Router.query);
+
+  useEffect(() => {
+    const getCompanies = async () => {
+      hideErrorPanel();
+      try {
+        const { data } = await apiGET('/search/company')({
+          params: { query },
+        });
+        setCompanies(data);
+      } catch (error) {
+        setErrorPanel(error);
+      }
+    };
+    getCompanies();
+  }, [query]);
+  const firstItem = companies.length ? companies[0] : null;
+  const remainingItems = companies.slice(1);
+  return (
+    <Layout>
+      <section className="grid-x grid-padding-x">
+        <ResultText query={query} />
+        {firstItem && <ResultItem onClick={onSearchItemClick} />}
+        {!firstItem && <p className="text-center cell">No results found!!!</p>}
+
+        {showExplore && <Explore className="cell" />}
+        {remainingItems.map(result => (
+          <ResultItem onClick={onSearchItemClick} key={result} />
+        ))}
+      </section>
+    </Layout>
+  );
+};
 Search.propTypes = propTypes;
 Search.defaultProps = defaultProps;
 export default Search;

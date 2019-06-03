@@ -7,7 +7,7 @@ import CompanyContext from '../../../CompanyContext';
 const propTypes = {};
 const defaultProps = {};
 const CompanyTitle = () => {
-  const { company } = useContext(CompanyContext);
+  const { company, domain } = useContext(CompanyContext);
 
   return (
     <div className="grid-x grid-padding-x">
@@ -15,7 +15,7 @@ const CompanyTitle = () => {
         <div className="container h4 text--company-title">
           <img
             className="image--company-logo"
-            src="https://images.siftery.com/image/upload/w_34,h_34,dpr_2,c_limit/v1444065129/v1/p/companies/accountingsuite.png"
+            src={`https://logo.clearbit.com/${domain}`}
           />
           {company.name}
           <Tags tags={company.industryCategories} />

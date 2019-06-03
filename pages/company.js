@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'next/router';
 
@@ -7,6 +7,8 @@ import Title from '../components/share/CompanyTitle';
 import CompanyList from '../components/share/CompanyList';
 import InfoList from '../components/Company/InfoList';
 import CompanyContext from '../CompanyContext';
+import ErrorContext from '../ErrorContext';
+
 import { apiGET } from '../api';
 
 const propTypes = {};
@@ -14,10 +16,15 @@ const defaultProps = {};
 const Company = ({ router }) => {
   const { domain } = router.query || {};
   const [company, setCompany] = useState({});
+  const { setErrorPanel } = useContext(ErrorContext);
   useEffect(() => {
     const loadCompany = async () => {
-      const { data } = await apiGET(`/company/${domain}`)();
-      setCompany(data);
+      try {
+        const { data } = await apiGET(`/company/${domain}`)();
+        setCompany(data);
+      } catch (error) {
+        setErrorPanel(error);
+      }
     };
     loadCompany();
   }, [domain]);

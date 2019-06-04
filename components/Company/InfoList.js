@@ -28,7 +28,7 @@ const InfoList = ({ domain }) => {
     },
     {
       label: 'Linkedin',
-      content: company.linkedIn,
+      content: `https://www.linkedin.com/${company.linkedIn}`,
     },
   ];
   return (
@@ -38,7 +38,7 @@ const InfoList = ({ domain }) => {
           {...info}
           key={key}
           isLongText={info.label === 'Description'}
-          isLink={info.label === 'Website'}
+          isLink={info.label === 'Website' || info.label === 'Linkedin'}
         />
       ))}
     </div>

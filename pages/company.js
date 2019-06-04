@@ -8,26 +8,60 @@ import CompanyList from '../components/share/CompanyList';
 import InfoList from '../components/Company/InfoList';
 import CompanyContext from '../CompanyContext';
 import ErrorContext from '../ErrorContext';
+import AppContext from '../AppContext';
 
-import { apiGET } from '../api';
+import { apiGET, apiPUT } from '../api';
 
 const propTypes = {};
 const defaultProps = {};
 const Company = ({ router }) => {
   const { domain } = router.query || {};
   const [company, setCompany] = useState({});
-  const { setErrorPanel } = useContext(ErrorContext);
+  const [customers, setCustomers] = useState([]);
+  const [suppliers, setSuppliers] = useState([]);
+  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
+  const currentCompany = useContext(AppContext).company;
+  const loadCompany = async () => {
+    try {
+      hideErrorPanel();
+      const { data } = await apiGET(`/company/${domain}`)();
+      setCompany(data);
+      setCustomers(data.customers);
+    } catch (error) {
+      setErrorPanel(error);
+    }
+  };
   useEffect(() => {
-    const loadCompany = async () => {
+    loadCompany();
+  }, [domain]);
+
+  const addAsSupplier = async () => {
+    if (currentCompany) {
       try {
-        const { data } = await apiGET(`/company/${domain}`)();
-        setCompany(data);
+        hideErrorPanel();
+        await apiPUT(`/connections/${domain}`)({
+          body: { data: [currentCompany] },
+        });
+        await loadCompany();
       } catch (error) {
         setErrorPanel(error);
       }
-    };
-    loadCompany();
-  }, [domain]);
+    }
+  };
+
+  const addAsCustomer = async () => {
+    if (currentCompany) {
+      try {
+        hideErrorPanel();
+        await apiPUT(`/connections/${currentCompany}`)({
+          body: { data: [domain] },
+        });
+        await loadCompany();
+      } catch (error) {
+        setErrorPanel(error);
+      }
+    }
+  };
 
   return (
     <Layout>
@@ -39,11 +73,15 @@ const Company = ({ router }) => {
               title="Business customers"
               question="Is your business a customer?"
               answer="yes, we use this"
+              companies={customers}
+              onQuestionClicked={addAsCustomer}
             />
             <CompanyList
               title="Suppliers"
               question="Is your business a supplier?"
               answer="yes, we supply"
+              companies={suppliers}
+              onQuestionClicked={addAsSupplier}
             />
             <InfoList domain={domain} />
           </div>

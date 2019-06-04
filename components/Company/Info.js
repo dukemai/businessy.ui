@@ -10,7 +10,7 @@ const Info = ({ label, content, isLongText, isLink }) => (
       <p className="h6 text--profile-label">{label}</p>
     </div>
     <div className={classnames('cell', { 'medium-8': !isLongText })}>
-      <p>{isLink ? <a href={`//${content}`}>{content}</a> : content}</p>
+      <p>{isLink ? <a target="_blank" href={`//${content}`}>{content}</a> : content}</p>
     </div>
   </>
 );

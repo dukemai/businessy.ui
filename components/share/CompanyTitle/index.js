@@ -8,7 +8,6 @@ const propTypes = {};
 const defaultProps = {};
 const CompanyTitle = () => {
   const { company, domain } = useContext(CompanyContext);
-
   return (
     <div className="grid-x grid-padding-x">
       <div className="cell callout--grey">

@@ -4,10 +4,12 @@ import Cookies from 'js-cookie';
 
 import AppContext from '../AppContext';
 import ErrorContext from '../ErrorContext';
+import { COOKIES } from '../constants';
 
 class MyApp extends App {
   state = {
     user: Cookies.get('user'),
+    company: Cookies.get(COOKIES.COMPANY),
     showError: false,
     error: null,
     errorTitle: '',
@@ -16,9 +18,16 @@ class MyApp extends App {
     Cookies.set('user', user);
     this.setState({ user });
   };
+  setCompany = company => {
+    Cookies.set(COOKIES.COMPANY, company);
+    this.setState({ company });
+  };
   signOut = () => {
     Cookies.remove('user');
-    this.setState({ user: null });
+    Cookies.remove(COOKIES.COMPANY);
+
+    this.setState({ user: null, company: '' });
+
   };
 
   render() {
@@ -42,7 +51,12 @@ class MyApp extends App {
 
     return (
       <AppContext.Provider
-        value={{ ...this.state, setUser: this.setUser, signOut: this.signOut }}
+        value={{
+          ...this.state,
+          setUser: this.setUser,
+          signOut: this.signOut,
+          setCompany: this.setCompany,
+        }}
       >
         <ErrorContext.Provider
           value={{

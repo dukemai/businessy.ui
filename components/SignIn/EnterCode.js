@@ -15,14 +15,17 @@ const defaultProps = {};
 const EnterCode = () => {
   const { code, setCode, email } = useContext(SignInContext);
   const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
-  const { setUser } = useContext(AppContext);
+  const { setUser, setCompany } = useContext(AppContext);
 
   const onCodeChanged = e => setCode(e.target.value);
   const onConfirmClicked = async () => {
     hideErrorPanel();
     try {
-      await apiPOST('/login/confirm')({ params: { key: code } });
+      const { data } = await apiPOST('/login/confirm')({
+        params: { key: code },
+      });
       Cookies.remove(COOKIES.CODE);
+      setCompany(data);
       setUser({
         email,
       });

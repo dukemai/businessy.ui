@@ -10,3 +10,4 @@ const apiBaseRequest = method => url => data =>
 
 export const apiGET = apiBaseRequest('GET');
 export const apiPOST = apiBaseRequest('POST');
+export const apiPUT = apiBaseRequest('PUT');

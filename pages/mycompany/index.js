@@ -37,32 +37,32 @@ const Profile = ({}) => {
   }, [company]);
 
   return (
-    Boolean(myCompany) && (
-      <Layout>
-        <CompanyContext.Provider
-          value={{ company: myCompany, domain: company }}
-        >
-          <Title />
-          <section className="grid-x grid-padding-x">
-            <div className="cell">
-              <CompanyList
-                title="Suppliers"
-                question=""
-                answer="Click here to add suppliers"
-                onMove={onMove}
-              />
-              <CompanyList
-                title="Business Customers"
-                question=""
-                answer="Click here to add customers"
-                onMove={onMove}
-              />
-              <InfoList />
-            </div>
-          </section>
-        </CompanyContext.Provider>
-      </Layout>
-    )
+    <Layout>
+      <CompanyContext.Provider value={{ company: myCompany, domain: company }}>
+        {Boolean(myCompany) && (
+          <>
+            <Title />
+            <section className="grid-x grid-padding-x">
+              <div className="cell">
+                <CompanyList
+                  title="Suppliers"
+                  question=""
+                  answer="Click here to add suppliers"
+                  onQuestionClicked={onMove}
+                />
+                <CompanyList
+                  title="Business Customers"
+                  question=""
+                  answer="Click here to add customers"
+                  onQuestionClicked={onMove}
+                />
+                <InfoList />
+              </div>
+            </section>
+          </>
+        )}
+      </CompanyContext.Provider>
+    </Layout>
   );
 };
 Profile.propTypes = propTypes;

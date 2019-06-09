@@ -25,12 +25,13 @@ class MyApp extends App {
   signOut = () => {
     Cookies.remove('user');
     Cookies.remove(COOKIES.COMPANY);
-
+    Cookies.remove(COOKIES.CODE);
     this.setState({ user: null, company: '' });
 
   };
-
+  
   render() {
+    Cookies.set('BUSINESSY_SESSION', 'eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InVzZXJJZCI6ImM5MmQzODJmLTVjNzItNGFiZC04NjA5LTY2MDMzNTA4ZDIwNCIsImNvbXBhbnlJZCI6ImVyaWNzc29uLmNvbSIsInZlcmlmaWVkIjoidHJ1ZSJ9LCJuYmYiOjE1NTg5OTA3ODIsImlhdCI6MTU1ODk5MDc4Mn0.iyCrQxlfu075FkxnxxHVFUmezueZ2FQsIb')
     const { Component, pageProps } = this.props;
     const setErrorPanel = error => {
       this.setState({

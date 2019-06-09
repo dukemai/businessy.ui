@@ -40,7 +40,7 @@ const Company = ({ router }) => {
       try {
         hideErrorPanel();
         await apiPUT(`/connections/${domain}`)({
-          body: { data: [currentCompany] },
+          data: [currentCompany],
         });
         await loadCompany();
       } catch (error) {
@@ -54,7 +54,7 @@ const Company = ({ router }) => {
       try {
         hideErrorPanel();
         await apiPUT(`/connections/${currentCompany}`)({
-          body: { data: [domain] },
+          data: [domain],
         });
         await loadCompany();
       } catch (error) {

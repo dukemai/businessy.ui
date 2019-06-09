@@ -24,7 +24,7 @@ const EnterCode = () => {
       const { data } = await apiPOST('/login/confirm')({
         params: { key: code },
       });
-      Cookies.remove(COOKIES.CODE);
+      Cookies.set(COOKIES.CODE, code);
       setCompany(data);
       setUser({
         email,

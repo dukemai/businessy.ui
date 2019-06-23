@@ -2,9 +2,7 @@ import React, { useEffect, useContext, useState } from 'react';
 import Router from 'next/router';
 import Layout from '../../components/Layout';
 
-import Description from '../../components/MyCompany/Description';
-import InfoList from '../../components/MyCompany/InfoList';
-import Next from '../../components/MyCompany/Next';
+import InfoList from '../../components/Company/InfoList';
 import Title from '../../components/share/CompanyTitle';
 import CompanyList from '../../components/share/CompanyList';
 import AppContext from '../../AppContext';
@@ -20,15 +18,23 @@ const onMove = () => Router.push('/add-connections');
 
 const Profile = ({}) => {
   const [myCompany, setMyCompany] = useState(null);
-  const { company } = useContext(AppContext);
-  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
+  const { company, user } = useContext(AppContext);
+  const [customers, setCustomers] = useState([]);
+  const [suppliers, setSuppliers] = useState([]);
 
+  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
+  if (!user && typeof window !== 'undefined') {
+    location.href = '/';
+    return;
+  }
   useEffect(() => {
     const loadMyCompany = async () => {
       hideErrorPanel();
       try {
         const { data } = await apiGET('/mycompany')();
         setMyCompany(data);
+        setCustomers(data.customers);
+        setSuppliers(data.suppliers);
       } catch (error) {
         setErrorPanel(error);
       }
@@ -49,12 +55,14 @@ const Profile = ({}) => {
                   question=""
                   answer="Click here to add suppliers"
                   onQuestionClicked={onMove}
+                  companies={suppliers}
                 />
                 <CompanyList
                   title="Business Customers"
                   question=""
                   answer="Click here to add customers"
                   onQuestionClicked={onMove}
+                  companies={customers}
                 />
                 <InfoList />
               </div>

@@ -60,3 +60,8 @@
     + POST: /api/mycompany/connect
         + Company, the company to link
         + Type, Type of connection like Supply or Consume
+
+# Tasks
+[] update feedback for add/remove connections
+[] fix search showing empty message
+[] fix ui for search to fetch real data

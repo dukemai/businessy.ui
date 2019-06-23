@@ -10,10 +10,17 @@ const defaultProps = {};
 const NUMBER_TO_SHOW = 10;
 const getMoreNumber = companies =>
   companies.length < NUMBER_TO_SHOW ? 0 : companies.length - 10;
-const CompanyList = ({ title, question, answer, onQuestionClicked, companies = [] }) => {
+const CompanyList = ({
+  title,
+  question,
+  answer,
+  onQuestionClicked,
+  showButtons = true,
+  companies = [],
+}) => {
   const { user } = useContext(AppContext);
   const showingMoreNumber = getMoreNumber(companies) > 0;
-  const showQuestion = Boolean(user);
+  const showQuestion = Boolean(user) && showButtons;
   return (
     <section className="container">
       <p>{title}</p>
@@ -28,7 +35,11 @@ const CompanyList = ({ title, question, answer, onQuestionClicked, companies = [
         </div>
         <div className="cell medium-6">
           {showQuestion && (
-            <Question onClick={onQuestionClicked} question={question} answer={answer} />
+            <Question
+              onClick={onQuestionClicked}
+              question={question}
+              answer={answer}
+            />
           )}
         </div>
       </div>

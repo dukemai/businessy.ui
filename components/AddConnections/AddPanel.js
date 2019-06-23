@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const propTypes = {};
 const defaultProps = {};
 const AddPanel = ({ title, description, uploadLabel, onAdding }) => {
-  const [link, updateLink] = useState('https://www.spotify.com/');
+  const [link, updateLink] = useState('');
   const onLinkUpdate = e => updateLink(e.target.value);
   const onAddClicked = () => {
     onAdding(link);

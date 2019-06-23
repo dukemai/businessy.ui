@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const propTypes = {};
 const defaultProps = {};
-const ConnectedCompany = ({}) => (
-  <Link href="/company">
+const ConnectedCompany = ({ domain }) => (
+  <Link href={`/company/${domain}`}>
     <a className="thumbnail thumbnail--search-company">
-      <img src="https://images.siftery.com/image/upload/w_34,h_34,dpr_2,c_limit/v1445112632/v1/p/companies/accounting-principals.png" />
+      <img src={`https://logo.clearbit.com/${domain}`} />
     </a>
   </Link>
 );

@@ -12,8 +12,8 @@ import ErrorContext from '../ErrorContext';
 
 import { apiGET } from '../api';
 
-const onSearchItemClick = e => {
-  Router.push('/company');
+const onSearchItemClick = domain => e => {
+  Router.push(`/company/${domain}`);
 };
 
 const propTypes = {};
@@ -21,6 +21,8 @@ const defaultProps = {};
 const Search = ({}) => {
   const state = useContext(AppContext);
   const [companies, setCompanies] = useState([]);
+  const [isDataInit, setIsDataInit] = useState(false);
+
   const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
 
   const isAuthenticated = Boolean(state.user);
@@ -36,7 +38,9 @@ const Search = ({}) => {
           params: { query },
         });
         setCompanies(data);
+        setIsDataInit(true);
       } catch (error) {
+        setIsDataInit(true);
         setErrorPanel(error);
       }
     };
@@ -48,12 +52,23 @@ const Search = ({}) => {
     <Layout>
       <section className="grid-x grid-padding-x">
         <ResultText query={query} />
-        {firstItem && <ResultItem onClick={onSearchItemClick} />}
-        {!firstItem && <p className="text-center cell">No results found!!!</p>}
+        {firstItem && (
+          <ResultItem
+            {...firstItem}
+            onClick={onSearchItemClick(firstItem.id)}
+          />
+        )}
+        {!firstItem && isDataInit && (
+          <p className="text-center cell">No results found!!!</p>
+        )}
 
         {showExplore && <Explore className="cell" />}
         {remainingItems.map(result => (
-          <ResultItem onClick={onSearchItemClick} key={result} />
+          <ResultItem
+            {...result}
+            onClick={onSearchItemClick(result.id)}
+            key={result.id}
+          />
         ))}
       </section>
     </Layout>

@@ -5,6 +5,8 @@ import Layout from '../components/Layout';
 import Info from '../components/AddConnections/Info';
 import AddPanel from '../components/AddConnections/AddPanel';
 import AppContext from '../AppContext';
+import ErrorContext from '../ErrorContext';
+
 import { apiPUT } from '../api';
 
 const propTypes = {};
@@ -12,10 +14,27 @@ const defaultProps = {};
 
 const AddConnections = ({}) => {
   const currentCompany = useContext(AppContext).company;
+  const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
+
   const onAddCustomer = async link => {
-    await apiPUT(`/connections/${currentCompany}`)({
-      data: [link],
-    });
+    try {
+      hideErrorPanel();
+      await apiPUT(`/connections/customers/${currentCompany}`)({
+        data: [link],
+      });
+    } catch (error) {
+      setErrorPanel(error);
+    }
+  };
+  const onAddSupplier = async link => {
+    try {
+      hideErrorPanel();
+      await apiPUT(`/connections/supplier/${currentCompany}`)({
+        data: [link],
+      });
+    } catch (error) {
+      setErrorPanel(error);
+    }
   };
   return (
     <Layout>
@@ -33,6 +52,7 @@ const AddConnections = ({}) => {
             title="Add Suppliers"
             description="Adding connections to your suppliers helps you to find the right suppliers for your business. Simply add the websites of your suppliers (separate with commas or spaces)."
             uploadLabel="Suppliers"
+            onAdding={onAddSupplier}
           />
         </div>
       </div>

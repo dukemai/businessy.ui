@@ -27,6 +27,7 @@ const Company = ({ router }) => {
       const { data } = await apiGET(`/company/${domain}`)();
       setCompany(data);
       setCustomers(data.customers);
+      setSuppliers(data.suppliers);
     } catch (error) {
       setErrorPanel(error);
     }
@@ -35,12 +36,12 @@ const Company = ({ router }) => {
     loadCompany();
   }, [domain]);
 
-  const addAsSupplier = async () => {
+  const addAsCustomer = async () => {
     if (currentCompany) {
       try {
         hideErrorPanel();
-        await apiPUT(`/connections/${domain}`)({
-          data: [currentCompany],
+        await apiPUT(`/connections/suppliers/${currentCompany}`)({
+          data: [domain],
         });
         await loadCompany();
       } catch (error) {
@@ -49,11 +50,11 @@ const Company = ({ router }) => {
     }
   };
 
-  const addAsCustomer = async () => {
+  const addAsSupplier = async () => {
     if (currentCompany) {
       try {
         hideErrorPanel();
-        await apiPUT(`/connections/${currentCompany}`)({
+        await apiPUT(`/connections/customers/${currentCompany}`)({
           data: [domain],
         });
         await loadCompany();
@@ -75,6 +76,9 @@ const Company = ({ router }) => {
               answer="yes, we use this"
               companies={customers}
               onQuestionClicked={addAsCustomer}
+              showButtons={
+                currentCompany !== domain && !customers.includes(currentCompany)
+              }
             />
             <CompanyList
               title="Suppliers"
@@ -82,6 +86,9 @@ const Company = ({ router }) => {
               answer="yes, we supply"
               companies={suppliers}
               onQuestionClicked={addAsSupplier}
+              showButtons={
+                currentCompany !== domain && !suppliers.includes(currentCompany)
+              }
             />
             <InfoList domain={domain} />
           </div>

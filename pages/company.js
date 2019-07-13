@@ -9,32 +9,17 @@ import InfoList from '../components/Company/InfoList';
 import CompanyContext from '../CompanyContext';
 import ErrorContext from '../ErrorContext';
 import AppContext from '../AppContext';
+import withAutoLoadCompany from '../components/share/withAutoLoadCompany';
 
 import { apiGET, apiPUT } from '../api';
 
 const propTypes = {};
 const defaultProps = {};
-const Company = ({ router }) => {
+const Company = ({ router, company, customers = [], suppliers = [] }) => {
   const { domain } = router.query || {};
-  const [company, setCompany] = useState({});
-  const [customers, setCustomers] = useState([]);
-  const [suppliers, setSuppliers] = useState([]);
+
   const { setErrorPanel, hideErrorPanel } = useContext(ErrorContext);
   const currentCompany = useContext(AppContext).company;
-  const loadCompany = async () => {
-    try {
-      hideErrorPanel();
-      const { data } = await apiGET(`/company/${domain}`)();
-      setCompany(data);
-      setCustomers(data.customers);
-      setSuppliers(data.suppliers);
-    } catch (error) {
-      setErrorPanel(error);
-    }
-  };
-  useEffect(() => {
-    loadCompany();
-  }, [domain]);
 
   const addAsCustomer = async () => {
     if (currentCompany) {
@@ -99,4 +84,6 @@ const Company = ({ router }) => {
 };
 Company.propTypes = propTypes;
 Company.defaultProps = defaultProps;
-export default withRouter(Company);
+export default withRouter(
+  withAutoLoadCompany(Company, props => (props.router.query || {}).domain)
+);

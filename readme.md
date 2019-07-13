@@ -62,6 +62,7 @@
         + Type, Type of connection like Supply or Consume
 
 # Tasks
-[] update feedback for add/remove connections
+[x] update feedback for add/remove connections
 [] fix search showing empty message
 [] fix ui for search to fetch real data
+[] HOC for my company and company

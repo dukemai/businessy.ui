@@ -4,7 +4,7 @@ import Router from 'next/router';
 import Layout from '../components/Layout';
 import Banner from '../components/Home/Banner';
 import Explore from '../components/share/Explore';
-import SearchInput from '../components/Home/SearchInput';
+import SearchInput from '../components/share/SearchInput';
 import PopularList from '../components/Home/PopularList';
 import AppContext from '../AppContext';
 

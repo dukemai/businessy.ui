@@ -1,7 +1,9 @@
 .text
-    &--title-popular, &--explore.h5, &--browse-popular
+    &--explore.h5, &--browse-popular
         commonMargin()
-    
+    &--title-popular
+        color: #4F6799
+        font-size: 2.625rem
     &--banner.h4
         color: #4F6799
         font-size: 2.625rem
@@ -24,11 +26,11 @@
     
 .callout
     &--footer
-        background-color: rgba(23, 121, 186, 0.9);
-        color: #FFF;
+        background-color: #FFF;
+        color: #505D68;
         margin-bottom: 0
         & a
-            color: #FFF;
+            color: #505D68;
             text-decoration: underline
 
 .social-icons
@@ -47,6 +49,10 @@
 .input-group
     &--search
         text-align: center
+.text--search
+    text-align: center
+    color: #4F6799
+    
 .suggestion-group
     width: 100%
     &--search
@@ -58,7 +64,7 @@
         margin-top: 8px;
         background: #4f6799
         border-radius: 8px;
-        
+
 .suggestion-link
     display: block
     padding: .5rem

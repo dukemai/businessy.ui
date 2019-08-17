@@ -44,6 +44,10 @@ const SearchInput = ({ onQueryChange, onGetStarted, onEnter }) => {
             {isLoading ? 'Loading...' : 'Get started'}
           </button>
         </div>
+        <p className="text--search">
+          Search results are ranked by the software providers with the most
+          customers.
+        </p>
       </div>
     </div>
   );

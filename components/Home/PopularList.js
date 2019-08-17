@@ -13,12 +13,12 @@ const recruitmentSoftwares = ['The Hub', 'Teamtailor', 'Uptrail'];
 const PopularList = ({}) => (
   <>
     <p className="text-center h4 text--title-popular">
-      Popular software companies
+      Popular software
     </p>
     <section className="callout grid-x container callout--grey">
-      <PopularColumn title="Accounting Software" items={accountingSoftwares} />
-      <PopularColumn title="HR Software" items={hrSoftwares} />
-      <PopularColumn title="Recruitment Software" items={recruitmentSoftwares} />
+      <PopularColumn items={accountingSoftwares} />
+      <PopularColumn items={hrSoftwares} />
+      <PopularColumn items={recruitmentSoftwares} />
     </section>
   </>
 );

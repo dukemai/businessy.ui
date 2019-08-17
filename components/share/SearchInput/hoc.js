@@ -21,7 +21,6 @@ const withAutoSuggest = Component => () => {
 
   const doSearch = debounce(200, async query => {
     try {
-      console.log('...', query);
       setIsloading(true);
       const { data } = await apiGET('/search/software')({
         params: { query },

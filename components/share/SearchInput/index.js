@@ -22,7 +22,7 @@ const SearchInput = ({ onQueryChange, onGetStarted, onEnter }) => {
   return (
     <div className="grid-x align-center grid--search">
       <div className="medium-6 cell">
-        <div className="input-group input-group--search">
+        <div className="input-group--search">
           <div className="suggestion-group suggestion-group--search">
             <input
               type="text"
@@ -36,15 +36,13 @@ const SearchInput = ({ onQueryChange, onGetStarted, onEnter }) => {
               <Suggestions categories={searchCategories} />
             )}
           </div>
-          <div className="input-group-button">
-            <button
-              disabled={isLoading}
-              onClick={onGetStarted}
-              className="button button--search"
-            >
-              {isLoading ? 'Loading...' : 'Get started'}
-            </button>
-          </div>
+          <button
+            disabled={isLoading}
+            onClick={onGetStarted}
+            className="button button--search"
+          >
+            {isLoading ? 'Loading...' : 'Get started'}
+          </button>
         </div>
       </div>
     </div>

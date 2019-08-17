@@ -44,11 +44,21 @@
         list-style: none
         z-index: 10
 
+.input-group
+    &--search
+        text-align: center
 .suggestion-group
     width: 100%
     &--search
         position: relative
-
+        & .input-group-field
+            border-radius: 8px;
+.button
+    &--search
+        margin-top: 8px;
+        background: #4f6799
+        border-radius: 8px;
+        
 .suggestion-link
     display: block
     padding: .5rem

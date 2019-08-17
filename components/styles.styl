@@ -53,9 +53,30 @@ paddingTitle()
 
 .container
     &--top-bar
-        background-color: rgba(23,121,186,0.9)
+        & .title-bar
+            background-color: #FFF
+        & .title-bar-title
+            background-color: #4F6799
+            display: inline-block
+            height: 50px
+            line-height: 50px
+            width: 50px
+            text-align: center
+            border-radius: 50%
+            font-size: 45px
         & .top-bar--main
             background-color: transparent
+        
+        & .button--signup
+            display: inline-block
+            height: 40px
+            line-height: 40px
+            padding: 0 16px!important
+            border-radius: 8px
+            background-color: #56D200
+            font-weight: bold
+    &--grey
+        background-color: #f6f7fb
 
 .input-group
     &--search-header

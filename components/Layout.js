@@ -36,7 +36,7 @@ const Layout = props => {
           hideSearchBar={props.hideSearchBar}
         />
        
-          <section className="align-center flex-child-grow">
+          <section className="align-center flex-child-grow container--grey">
             {props.children}
           </section>
           <Alert />

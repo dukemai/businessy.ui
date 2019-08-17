@@ -54,16 +54,14 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
       <ul className="menu simple">
         {!isAuthenticated && (
           <>
+            
             <li>
               <Link href="/signin">
-                <a>Sign in</a>
+                <a className="button button--signup">Sign up - FREE</a>
               </Link>
             </li>
-            <li>/</li>
             <li>
-              <Link href="/signin">
-                <a>Sign up</a>
-              </Link>
+              <button onClick={toggleMenu} className="menu-icon" type="button" />
             </li>
           </>
         )}
@@ -119,9 +117,8 @@ const Header = ({ onSignUpClicked, onLogoClicked, hideSearchBar = false }) => {
       </header>
       <section className="title-bar show-for-small-only">
         <div className="title-bar-left">
-          <button onClick={toggleMenu} className="menu-icon" type="button" />
           <span onClick={onLogoClicked} className="title-bar-title">
-            Businessy
+            B
           </span>
         </div>
 

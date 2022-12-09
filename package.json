@@ -26,7 +26,7 @@
     "@zeit/next-stylus": "^1.0.1",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "jest": "^24.8.0",
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.14",
